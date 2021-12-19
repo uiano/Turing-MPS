@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:74e2f2c7-7ccf-409e-b9cd-586ec9e59462(BinaryTuring.structure)">
+<model ref="r:74e2f2c7-7ccf-409e-b9cd-586ec9e59462(Turing.structure)">
   <persistence version="9" />
   <languages>
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="9" />
@@ -88,6 +88,16 @@
       <property role="20lbJX" value="fLJekj6/_1__n" />
       <ref role="20lvS9" node="50LahKyThJl" resolve="CombinationState" />
     </node>
+    <node concept="1TJgyi" id="6TYi0m$_oBj" role="1TKVEl">
+      <property role="IQ2nx" value="7961880380310915539" />
+      <property role="TrG5h" value="machineExplanation" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="6TYi0m$_oBm" role="1TKVEl">
+      <property role="IQ2nx" value="7961880380310915542" />
+      <property role="TrG5h" value="exampleTape" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
   </node>
   <node concept="1TIwiD" id="704drtsCsOK">
     <property role="EcuMT" value="8071635493804166448" />
@@ -138,7 +148,7 @@
     <node concept="25R33" id="50LahKyThII" role="25R1y">
       <property role="3tVfz5" value="5778444997714320302" />
       <property role="TrG5h" value="blank" />
-      <property role="1L1pqM" value="_" />
+      <property role="1L1pqM" value="blank" />
     </node>
     <node concept="25R33" id="50LahKyThIT" role="25R1y">
       <property role="3tVfz5" value="5778444997714320313" />
@@ -278,7 +288,7 @@
     <property role="EcuMT" value="5778444997714660975" />
     <property role="3GE5qa" value="combination_machine" />
     <property role="TrG5h" value="Conditional" />
-    <property role="34LRSv" value="if" />
+    <property role="34LRSv" value="read" />
     <ref role="1TJDcQ" node="50LahKySCmD" resolve="CombinationOperation" />
     <node concept="1TJgyj" id="50LahKyU$TK" role="1TKVEi">
       <property role="IQ2ns" value="5778444997714660976" />

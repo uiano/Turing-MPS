@@ -2,8 +2,9 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
-      <modulePath path="$PROJECT_DIR$/languages/BinaryTuring/BinaryTuring.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/BinaryTuring/sandbox/BinaryTuring.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/Turing/Turing.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/Turing/sandbox/Turing.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/Plugin/Plugin.msd" folder="" />
     </projectModules>
   </component>
 </project>

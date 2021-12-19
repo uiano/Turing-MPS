@@ -1,0 +1,11 @@
+TODO for TURING
+1- make table machines as tables
+4- make running possible in menu (Right click on machine in list if machines to run)
+3- build more examples and make them runnable
+2- build examples that combine table and combination machines
+- improve editor such that you can type the verbatim text
+8 - build plugin, not standalone version
+5- write documentation: README, user manual, tutorial ++ Sort documentation
+- make diagrams for combination machines
+6- create unit tests = 2 test editor, 1 test runtime
+7- better display of runtime status, step through (backup plan= print status after every process, status can be machine running, tape position etc.)

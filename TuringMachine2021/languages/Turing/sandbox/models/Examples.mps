@@ -2,7 +2,7 @@
 <model ref="r:238a7dca-9f01-4dcb-9181-8a9f921cd132(Examples)">
   <persistence version="9" />
   <languages>
-    <use id="74e24c20-e15c-4f10-9922-01e07905d877" name="BinaryTuring" version="0" />
+    <use id="74e24c20-e15c-4f10-9922-01e07905d877" name="Turing" version="0" />
   </languages>
   <imports />
   <registry>
@@ -11,29 +11,29 @@
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
-    <language id="74e24c20-e15c-4f10-9922-01e07905d877" name="BinaryTuring">
-      <concept id="8071635493804166445" name="BinaryTuring.structure.CombinationMachine" flags="ng" index="GDvyq">
+    <language id="74e24c20-e15c-4f10-9922-01e07905d877" name="Turing">
+      <concept id="8071635493804166445" name="Turing.structure.CombinationMachine" flags="ng" index="GDvyq">
         <child id="5778444997714455047" name="states" index="1MPwcr" />
       </concept>
-      <concept id="8071635493804166440" name="BinaryTuring.structure.Machine" flags="ng" index="GDvyv">
+      <concept id="8071635493804166440" name="Turing.structure.Machine" flags="ng" index="GDvyv">
         <property id="3678715891658384572" name="initial" index="3GV8ww" />
       </concept>
-      <concept id="5778444997714320341" name="BinaryTuring.structure.CombinationState" flags="ng" index="1MP3b9">
+      <concept id="5778444997714320341" name="Turing.structure.CombinationState" flags="ng" index="1MP3b9">
         <child id="5778444997714320342" name="operations" index="1MP3ba" />
       </concept>
-      <concept id="5778444997714488892" name="BinaryTuring.structure.RunMachine" flags="ng" index="1MPCsw">
+      <concept id="5778444997714488892" name="Turing.structure.RunMachine" flags="ng" index="1MPCsw">
         <reference id="5778444997714488893" name="machine" index="1MPCsx" />
       </concept>
-      <concept id="5778444997714486918" name="BinaryTuring.structure.Write" flags="ng" index="1MPCYq">
+      <concept id="5778444997714486918" name="Turing.structure.Write" flags="ng" index="1MPCYq">
         <property id="5778444997714486919" name="value" index="1MPCYr" />
       </concept>
-      <concept id="5778444997714385609" name="BinaryTuring.structure.GoTo" flags="ng" index="1MPNfl">
+      <concept id="5778444997714385609" name="Turing.structure.GoTo" flags="ng" index="1MPNfl">
         <reference id="5778444997714643360" name="state" index="1MQM2W" />
       </concept>
-      <concept id="5778444997714385606" name="BinaryTuring.structure.Move" flags="ng" index="1MPNfq">
+      <concept id="5778444997714385606" name="Turing.structure.Move" flags="ng" index="1MPNfq">
         <property id="5778444997714385607" name="movement" index="1MPNfr" />
       </concept>
-      <concept id="5778444997714660975" name="BinaryTuring.structure.Conditional" flags="ng" index="1MQQtN">
+      <concept id="5778444997714660975" name="Turing.structure.Conditional" flags="ng" index="1MQQtN">
         <child id="5778444997714660985" name="one" index="1MQQt_" />
         <child id="5778444997714660981" name="zero" index="1MQQtD" />
         <child id="5778444997714660976" name="blank" index="1MQQtG" />

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:4ee22e1d-d65c-4128-ac6e-43424b9be526(BinaryTuring.behavior)">
+<model ref="r:4ee22e1d-d65c-4128-ac6e-43424b9be526(Turing.behavior)">
   <persistence version="9" />
   <languages>
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
@@ -10,7 +10,7 @@
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
-    <import index="uzpx" ref="r:74e2f2c7-7ccf-409e-b9cd-586ec9e59462(BinaryTuring.structure)" />
+    <import index="uzpx" ref="r:74e2f2c7-7ccf-409e-b9cd-586ec9e59462(Turing.structure)" />
     <import index="dxuu" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing(JDK/)" />
     <import index="hyam" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.event(JDK/)" />
   </imports>
@@ -69,6 +69,9 @@
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
+      <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
+        <reference id="1144433194310" name="classConcept" index="1Pybhc" />
+      </concept>
       <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
         <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
@@ -82,6 +85,9 @@
       <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
+      </concept>
+      <concept id="1513279640923991009" name="jetbrains.mps.baseLanguage.structure.IGenericClassCreator" flags="ng" index="366HgL">
+        <property id="1513279640906337053" name="inferTypeParams" index="373rjd" />
       </concept>
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
@@ -276,6 +282,78 @@
       </node>
       <node concept="17QB3L" id="2TOORkgMph$" role="3clF45" />
     </node>
+    <node concept="13i0hz" id="4ThV$rutvDe" role="13h7CS">
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="runFromMenu" />
+      <node concept="3Tm1VV" id="4ThV$rutvDf" role="1B3o_S" />
+      <node concept="17QB3L" id="4ThV$rutvLD" role="3clF45" />
+      <node concept="3clFbS" id="4ThV$rutvDh" role="3clF47">
+        <node concept="3cpWs8" id="4ThV$rutvMH" role="3cqZAp">
+          <node concept="3cpWsn" id="4ThV$rutvMK" role="3cpWs9">
+            <property role="TrG5h" value="tape" />
+            <node concept="17QB3L" id="4ThV$rutvMG" role="1tU5fm" />
+            <node concept="2YIFZM" id="4ThV$rutvNN" role="33vP2m">
+              <ref role="1Pybhc" to="dxuu:~JOptionPane" resolve="JOptionPane" />
+              <ref role="37wK5l" to="dxuu:~JOptionPane.showInputDialog(java.awt.Component,java.lang.Object)" resolve="showInputDialog" />
+              <node concept="10Nm6u" id="4ThV$rutvTU" role="37wK5m" />
+              <node concept="Xl_RD" id="4ThV$rutw2T" role="37wK5m">
+                <property role="Xl_RC" value="set tape content" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="4ThV$rutwA5" role="3cqZAp">
+          <node concept="2OqwBi" id="4ThV$rutxc$" role="3clFbG">
+            <node concept="10M0yZ" id="4ThV$rutwBq" role="2Oq$k0">
+              <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+            </node>
+            <node concept="liA8E" id="4ThV$rutzLo" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
+              <node concept="37vLTw" id="4ThV$rutzOK" role="37wK5m">
+                <ref role="3cqZAo" node="4ThV$rutvMK" resolve="tape" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="4ThV$rut$3X" role="3cqZAp" />
+        <node concept="3cpWs8" id="4ThV$rut$oq" role="3cqZAp">
+          <node concept="3cpWsn" id="4ThV$rut$or" role="3cpWs9">
+            <property role="TrG5h" value="machineState" />
+            <node concept="3uibUv" id="4ThV$rut$os" role="1tU5fm">
+              <ref role="3uigEE" node="50LahKySCmE" resolve="MachineState" />
+            </node>
+            <node concept="2ShNRf" id="4ThV$rut$IF" role="33vP2m">
+              <node concept="1pGfFk" id="4ThV$rut$Vf" role="2ShVmc">
+                <property role="373rjd" value="true" />
+                <ref role="37wK5l" node="50LahKySEIu" resolve="MachineState" />
+                <node concept="37vLTw" id="4ThV$rut_a0" role="37wK5m">
+                  <ref role="3cqZAo" node="4ThV$rutvMK" resolve="tape" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="4ThV$rut_eX" role="3cqZAp">
+          <node concept="BsUDl" id="4ThV$rut_eV" role="3clFbG">
+            <ref role="37wK5l" node="50LahKyTN64" resolve="run" />
+            <node concept="37vLTw" id="4ThV$rut_vu" role="37wK5m">
+              <ref role="3cqZAo" node="4ThV$rut$or" resolve="machineState" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="4ThV$rut_Mv" role="3cqZAp">
+          <node concept="2OqwBi" id="4ThV$rutApM" role="3cqZAk">
+            <node concept="37vLTw" id="4ThV$rutA47" role="2Oq$k0">
+              <ref role="3cqZAo" node="4ThV$rut$or" resolve="machineState" />
+            </node>
+            <node concept="liA8E" id="4ThV$rutAy2" role="2OqNvi">
+              <ref role="37wK5l" node="50LahKyWyLw" resolve="print" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="13i0hz" id="50LahKyTOYF" role="13h7CS">
       <property role="TrG5h" value="run" />
       <ref role="13i0hy" node="50LahKyTN64" resolve="run" />
@@ -469,7 +547,7 @@
                         <node concept="liA8E" id="50LahKyVDwa" role="2OqNvi">
                           <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                           <node concept="Xl_RD" id="50LahKyVDNh" role="37wK5m">
-                            <property role="Xl_RC" value=" " />
+                            <property role="Xl_RC" value="#" />
                           </node>
                         </node>
                       </node>
@@ -752,7 +830,7 @@
                     <node concept="liA8E" id="3cdr9Nw2kf3" role="2OqNvi">
                       <ref role="37wK5l" to="guwi:~PrintStream.print(java.lang.String)" resolve="print" />
                       <node concept="Xl_RD" id="3cdr9Nw2kpD" role="37wK5m">
-                        <property role="Xl_RC" value=" " />
+                        <property role="Xl_RC" value="#" />
                       </node>
                     </node>
                   </node>
@@ -760,7 +838,7 @@
                 <node concept="3clFbF" id="2TOORkgMvs_" role="3cqZAp">
                   <node concept="d57v9" id="2TOORkgMwr4" role="3clFbG">
                     <node concept="Xl_RD" id="2TOORkgMwv9" role="37vLTx">
-                      <property role="Xl_RC" value=" " />
+                      <property role="Xl_RC" value="#" />
                     </node>
                     <node concept="37vLTw" id="2TOORkgMvsB" role="37vLTJ">
                       <ref role="3cqZAo" node="2TOORkgMtbn" resolve="retval" />

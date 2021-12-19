@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="BinaryTuring" uuid="74e24c20-e15c-4f10-9922-01e07905d877" languageVersion="0" moduleVersion="0">
+<language namespace="Turing" uuid="74e24c20-e15c-4f10-9922-01e07905d877" languageVersion="0" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -12,7 +12,7 @@
   </facets>
   <accessoryModels />
   <generators>
-    <generator alias="main" namespace="BinaryTuring#01" uuid="a2a73fe2-bf9c-4508-8095-8750c8592ebc">
+    <generator alias="main" namespace="Turing#01" uuid="a2a73fe2-bf9c-4508-8095-8750c8592ebc">
       <models>
         <modelRoot contentPath="${module}/generator" type="default">
           <sourceRoot location="templates" />
@@ -44,11 +44,11 @@
       </languageVersions>
       <dependencyVersions>
         <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
-        <module reference="74e24c20-e15c-4f10-9922-01e07905d877(BinaryTuring)" version="0" />
-        <module reference="a2a73fe2-bf9c-4508-8095-8750c8592ebc(BinaryTuring#01)" version="0" />
         <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
         <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
         <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
+        <module reference="74e24c20-e15c-4f10-9922-01e07905d877(Turing)" version="0" />
+        <module reference="a2a73fe2-bf9c-4508-8095-8750c8592ebc(Turing#01)" version="0" />
         <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
       </dependencyVersions>
       <mapping-priorities />
@@ -96,13 +96,13 @@
   </languageVersions>
   <dependencyVersions>
     <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
-    <module reference="74e24c20-e15c-4f10-9922-01e07905d877(BinaryTuring)" version="0" />
     <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
     <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
     <module reference="1ed103c3-3aa6-49b7-9c21-6765ee11f224(MPS.Editor)" version="0" />
     <module reference="498d89d2-c2e9-11e2-ad49-6cf049e62fe5(MPS.IDEA)" version="0" />
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
     <module reference="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)" version="0" />
+    <module reference="74e24c20-e15c-4f10-9922-01e07905d877(Turing)" version="0" />
     <module reference="2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)" version="0" />
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
     <module reference="a9e4c532-c5f5-4bb7-99ef-42abb73bbb70(jetbrains.mps.lang.descriptor.aspects)" version="0" />
