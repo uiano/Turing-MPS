@@ -12,14 +12,27 @@
       </concept>
     </language>
     <language id="74e24c20-e15c-4f10-9922-01e07905d877" name="Turing">
+      <concept id="8071635493804166448" name="Turing.structure.TableMachine" flags="ng" index="GDvy7">
+        <child id="5778444997714455051" name="states" index="1MPwcn" />
+      </concept>
       <concept id="8071635493804166445" name="Turing.structure.CombinationMachine" flags="ng" index="GDvyq">
         <child id="5778444997714455047" name="states" index="1MPwcr" />
       </concept>
       <concept id="8071635493804166440" name="Turing.structure.Machine" flags="ng" index="GDvyv">
         <property id="3678715891658384572" name="initial" index="3GV8ww" />
       </concept>
+      <concept id="5778444997714320280" name="Turing.structure.TableOperation" flags="ng" index="1MP3a4">
+        <property id="5778444997714320281" name="write" index="1MP3a5" />
+        <property id="5778444997714320293" name="move" index="1MP3aT" />
+        <reference id="5778444997714320350" name="next_state" index="1MP3b2" />
+      </concept>
       <concept id="5778444997714320341" name="Turing.structure.CombinationState" flags="ng" index="1MP3b9">
         <child id="5778444997714320342" name="operations" index="1MP3ba" />
+      </concept>
+      <concept id="5778444997714320331" name="Turing.structure.TableState" flags="ng" index="1MP3bn">
+        <child id="5778444997714320337" name="one_op" index="1MP3bd" />
+        <child id="5778444997714320332" name="blank_op" index="1MP3bg" />
+        <child id="5778444997714320334" name="zero_op" index="1MP3bi" />
       </concept>
       <concept id="5778444997714488892" name="Turing.structure.RunMachine" flags="ng" index="1MPCsw">
         <reference id="5778444997714488893" name="machine" index="1MPCsx" />
@@ -201,6 +214,27 @@
         <node concept="1MPNfl" id="p$Dj$B0XoO" role="1MQQt_">
           <ref role="1MQM2W" node="p$Dj$B0XmT" resolve="run" />
         </node>
+      </node>
+    </node>
+  </node>
+  <node concept="GDvy7" id="4uj1ZtddHTi">
+    <property role="TrG5h" value="GoToEnd" />
+    <property role="3GV8ww" value="0" />
+    <node concept="1MP3bn" id="4uj1ZtddHTj" role="1MPwcn">
+      <property role="TrG5h" value="0" />
+      <node concept="1MP3a4" id="4uj1ZtddHTk" role="1MP3bg">
+        <property role="1MP3a5" value="50LahKyThII/blank" />
+        <property role="1MP3aT" value="50LahKyThJ2/left" />
+      </node>
+      <node concept="1MP3a4" id="4uj1ZtddHTl" role="1MP3bi">
+        <property role="1MP3a5" value="50LahKyThIT/zero" />
+        <property role="1MP3aT" value="50LahKyThJ5/right" />
+        <ref role="1MP3b2" node="4uj1ZtddHTj" resolve="0" />
+      </node>
+      <node concept="1MP3a4" id="4uj1ZtddHTm" role="1MP3bd">
+        <property role="1MP3a5" value="50LahKyThIW/one" />
+        <property role="1MP3aT" value="50LahKyThJ5/right" />
+        <ref role="1MP3b2" node="4uj1ZtddHTj" resolve="0" />
       </node>
     </node>
   </node>
