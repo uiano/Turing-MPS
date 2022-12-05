@@ -10,7 +10,9 @@
       <classes generated="true" path="${module}/classes_gen" />
     </facet>
   </facets>
-  <accessoryModels />
+  <accessoryModels>
+    <model modelUID="r:17f61544-24dc-414f-b241-683f71672202(Turing.basicMachines)" />
+  </accessoryModels>
   <generators>
     <generator alias="main" namespace="Turing#01" uuid="a2a73fe2-bf9c-4508-8095-8750c8592ebc">
       <models>
@@ -66,6 +68,7 @@
     <dependency reexport="false">3a13115c-633c-4c5c-bbcc-75c4219e9555(jetbrains.mps.lang.quotation)</dependency>
   </dependencies>
   <languageVersions>
+    <language slang="l:74e24c20-e15c-4f10-9922-01e07905d877:Turing" version="0" />
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="12" />
     <language slang="l:443f4c36-fcf5-4eb6-9500-8d06ed259e3e:jetbrains.mps.baseLanguage.classifiers" version="0" />
     <language slang="l:fd392034-7849-419d-9071-12563d152375:jetbrains.mps.baseLanguage.closures" version="0" />
