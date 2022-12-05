@@ -6,7 +6,7 @@
   </languages>
   <imports>
     <import index="ninq" ref="r:17f61544-24dc-414f-b241-683f71672202(Turing.basicMachines)" />
-    <import index="pnd5" ref="r:7342b633-deb9-416a-9811-61306cb5a8e0(Turing.CombinationMachine)" />
+    <import index="pnd5" ref="r:7342b633-deb9-416a-9811-61306cb5a8e0(Turing.CombinationMachine)" implicit="true" />
   </imports>
   <registry>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
