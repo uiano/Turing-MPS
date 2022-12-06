@@ -6,7 +6,6 @@
   </languages>
   <imports>
     <import index="ninq" ref="r:17f61544-24dc-414f-b241-683f71672202(Turing.basicMachines)" />
-    <import index="pnd5" ref="r:7342b633-deb9-416a-9811-61306cb5a8e0(Turing.CombinationMachine)" implicit="true" />
   </imports>
   <registry>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -441,7 +440,7 @@
           <ref role="1MPCsx" to="ninq:6qtZiK_SBSM" resolve="right" />
         </node>
         <node concept="1MPCsw" id="5ZfL105ow$y" role="1MQQtG">
-          <ref role="1MPCsx" to="pnd5:5ZfL105ow$c" resolve="RemoveLeadingZeros" />
+          <ref role="1MPCsx" to="ninq:6qtZiK_W5Qj" resolve="RemoveLeadingZeros" />
         </node>
       </node>
     </node>
@@ -464,7 +463,7 @@
           <ref role="1MPCsx" to="ninq:6qtZiK_U48A" resolve="FindEndOfStringLeft" />
         </node>
         <node concept="1MPCsw" id="5ZfL105ow$q" role="1MQQtG">
-          <ref role="1MPCsx" to="pnd5:5ZfL105ow$c" resolve="RemoveLeadingZeros" />
+          <ref role="1MPCsx" to="ninq:6qtZiK_W5Qj" resolve="RemoveLeadingZeros" />
         </node>
       </node>
     </node>
@@ -520,7 +519,7 @@
           <ref role="1MPCsx" to="ninq:6qtZiK_U48A" resolve="FindEndOfStringLeft" />
         </node>
         <node concept="1MPCsw" id="4CJa5in88id" role="1MQQtD">
-          <ref role="1MPCsx" to="pnd5:5ZfL105ow$c" resolve="RemoveLeadingZeros" />
+          <ref role="1MPCsx" to="ninq:6qtZiK_W5Qj" resolve="RemoveLeadingZeros" />
         </node>
         <node concept="1MPCsw" id="6qtZiK_W5KB" role="1MQQtG">
           <ref role="1MPCsx" to="ninq:6qtZiK_U3U4" resolve="one" />

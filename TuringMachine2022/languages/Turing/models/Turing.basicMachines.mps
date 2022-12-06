@@ -554,6 +554,7 @@
     <property role="TrG5h" value="RemoveLeadingZeros" />
     <property role="13vP$x" value="Fills in # for all zeroes before a 1, useful for binary operations." />
     <property role="13vP$z" value="00001001" />
+    <property role="3GV8ww" value="00001001" />
     <node concept="1MP3bn" id="6qtZiK_W5Rs" role="1MPwcn">
       <property role="TrG5h" value="s1" />
       <node concept="1MP3a4" id="6qtZiK_W5Rt" role="1MP3bg">
