@@ -32,6 +32,7 @@
     <module reference="74e24c20-e15c-4f10-9922-01e07905d877(Turing)" version="0" />
     <module reference="9df7a8d8-8097-446b-ab20-7950128f4a0c(Turing.sandbox)" version="0" />
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
+    <module reference="258bd2f6-0d02-411d-86b2-5a5ea083e6d2(jetbrains.mps.lang.editor.table.runtime)" version="0" />
   </dependencyVersions>
 </solution>
 

@@ -5,6 +5,7 @@
       <modulePath path="$PROJECT_DIR$/languages/Turing/Turing.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/Turing/sandbox/Turing.sandbox.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/Plugin/Plugin.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/TuringMachine2022.build/TuringMachine2022.build.msd" folder="" />
     </projectModules>
   </component>
 </project>
