@@ -226,11 +226,6 @@
       <property role="TrG5h" value="one" />
       <property role="1L1pqM" value="1" />
     </node>
-    <node concept="25R33" id="6qtZiK_t9Wt" role="25R1y">
-      <property role="3tVfz5" value="7394344529261010717" />
-      <property role="TrG5h" value="none" />
-      <property role="1L1pqM" value="none" />
-    </node>
   </node>
   <node concept="25R3W" id="50LahKyThJ0">
     <property role="3F6X1D" value="5778444997714320320" />

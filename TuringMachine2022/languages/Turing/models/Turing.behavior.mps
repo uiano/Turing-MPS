@@ -1202,10 +1202,6 @@
       <property role="TrG5h" value="one" />
       <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
     </node>
-    <node concept="QsSxf" id="6qtZiK_JTjQ" role="Qtgdg">
-      <property role="TrG5h" value="none" />
-      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
-    </node>
   </node>
   <node concept="13h7C7" id="50LahKyTvzU">
     <ref role="13h7C2" to="uzpx:704drtsCsOC" resolve="Machine" />

@@ -15,41 +15,31 @@ To access properties of any model or solution use <kbd>Alt</kbd>+<kbd>Enter</kbd
 You can also access `properties` at the bottom of the drop down menu when `right-clicking` a model or solution.
 
 ## Turing Language Syntax
-Here is an example of Turing Language Syntax of a combination machine
-```
-Name: Increment
-<input tape>
+There are two types of turing machines implemented in the language.
+These are the table machine and the combination machine. 
+The table machine is the most fundamental machine.
+It consists of states that each have three operations based on the input symbol: 0, 1 or #.
+The input is read in the form of a tape which can be set either in the machine itself or through a textbox in the Run Machine command.
+Each operation then has three actions, write, move and next. Write determines which symbol should be written at the current position of the tape.
+Move determines which direction the machine head should move. This can also be set as "stay".
+Finally the next action determines which state the machine should switch to. While write and move are obligatory, next is optional, and if no next is set the machine is considered finished.
+It will then print the final result.
 
-initial
-    <some code>
-        goto increment
-    <some code>
-    
-increment                                                                                
-    zero: 
-        write 1
-        run machine FindEndOfStringLeft
-        run machine RemoveLeadingZeros                         
-    one: 
-        write 0
-        move left
-        goto state increment              
-    blank: 
-        write 1                                                  
-```
-A Turing Machine has a name and contains a number of states.
-Each state has a name and a number of operations.
-An operation can either be read, write, move, go to state or run a machine.
-The tape alphabet defines the values it can `read` and `write`.
-`move` navigates the head (index on the tape) with either `left`, `right` or `stay`.
-`goto state` transitions the machine from one state to a specified state defined in the machine.
-`run machine` initiates another Turing machine, that continues at current tape position.
+For the table machine one can create a new state by pressing <kbd>Enter</kbd> when selecting an area to the side of the table row.
+The state can be deleted in the same manner by pressing <kbd>Backspace</kbd>.
+A table transition can be created by pressing <kbd>Enter</kbd> in the next state section, and deleted with <kbd>Backspace</kbd>.
 
-Considering the example above, the Combination Turing Machine has a name `Increment`.
-The first state is called `initial` and the second state in this example is called `increment`.
-`increment` reads from the input tape and calls operations according to the read input.
-If `one` is read, the machine `writes 0`, `moves left` on the tape and goes to state `increment`.
-Then it continues to read the next input.
-This Combination Turing Machine increments a binary number.
+The combination machine operates at a slightly higher level. It is not able to do baseline operations like write and move,
+however it is able to run other machines, both table machines and combination machines.
+This means that to do such basic operations the combination machine requires very simply table machines, 
+and such basic machines are therefore included in the language itself.
+Like the table machine the combination machine also contains states, and it also
+has goto transitions that point to the next state. Similarly to the table machine if these transitions are empty the machine ends.
+The combination machine states also contain operations based on different inputs, but unlike the table machine these are optional,
+it is possible for a state to not contain a read function.
+
+Examples can be found in the turing playground.
+Most of these examples are combination machines.
+For more examples of table machines look at the accessories section of the language itself.
 
 
