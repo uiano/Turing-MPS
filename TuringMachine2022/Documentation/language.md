@@ -9,7 +9,7 @@ The combination machine however is designed to run other machines, both table ma
 This means that it can perform more advanced operations by utilizing multiple more simplistic machines.
 
 ## Structure
-###Table Machine
+### Table Machine
 The TableMachine concept is the root concept for the table machine.
 It extends the Machine concept which contains an initial string which is the basic input for the machine if run through the run button.
 The TableMachine itself contains an explanation and an example tape.
@@ -24,7 +24,7 @@ Finally for the table machine there is the TableGoto, which contains a reference
 The table machine also uses a separate concept called HeaderString.
 This is used to create headers for the tables.
 
-###Combination Machine
+### Combination Machine
 The CombinationMachine and CombinationState are pretty similar to the table machine equivalents, but with CombinationState having one list of operations rather than three individual ones.
 The differences start with the CombinationOperation.
 The combination machine does not contain write or move, but it does contain a Conditional concept, a goto concept and a RunMachine concept.
@@ -40,7 +40,7 @@ Secondly the states of a machine must all have unique names.
 Finally the goto concepts are constrained so that they can only point to states of the same machine.
 
 ## Editor (Syntax)
-###Table Machine
+### Table Machine
 The editor for the TableMachine concept include a Table, which is a language included in mps.
 This table aspect references the TableMachineModel java class (which can be viewed in inspector).
 The class contains the functions getColumnCount, getRowCount, getValueAt, insertRow, deleteRow, createElement and deleteElement.
@@ -49,7 +49,7 @@ The first column fetches the state, the second fetches the operation, the third 
 When each of these elements are fetched language refers to their individual editors, which simply show the relevant variables.
 The first row of the table fetches HeaderStrings and assigns the relevant values.
 
-###Combination Machine
+### Combination Machine
 Compared to the table machine the editor for the combination machine is relatively simple.
 Each machine contains the states which each contain the operations.
 Each type of operation has slightly different editors, with the Conditional_Editor being the most different from the other two as it contains three children, one for each of the possible input values.
@@ -63,7 +63,7 @@ Editor components are custom components that can be added to an editor.
 In the Turing language, there is a editor component for the run button used in the combination machine editor.
 
 ## Behavior
-###Table machine
+### Table machine
 The TableMachine_Behavior contains two functions for setting the tape value, one from the run button and one from the run machine functionality in the file overview, as well as initialize the MachineState class.
 This class contains the runtime version of the tape and executes all operations on it.
 This includes read, write and move, as well as printing the final version of the tape.
@@ -74,7 +74,7 @@ TableWrite_Behavior checks it's own value and calls a write command to the Machi
 TableMove_Behavior does the same and calls a move command to the MachineState, except if the value is "stay".
 Finally the TableGoto_Behavior runs another state, similarly to the TableMachine_Behavior.
 
-###Combination machine
+### Combination machine
 The combination machine works in much the same way as the table machine, except since Conditional, GoTo and RunMachine are instances of CombinationOperation rather than children,
 this means that the CombinationState_Behavior simply runs all operations it contains.
 
