@@ -200,11 +200,6 @@
       <property role="20kJfa" value="goto" />
       <ref role="20lvS9" node="6qtZiK_t9Wu" resolve="TableGoto" />
     </node>
-    <node concept="1TJgyi" id="6qtZiK_v2sh" role="1TKVEl">
-      <property role="IQ2nx" value="7394344529261504273" />
-      <property role="TrG5h" value="value" />
-      <ref role="AX2Wp" node="50LahKyThIH" resolve="CellValue" />
-    </node>
   </node>
   <node concept="25R3W" id="50LahKyThIH">
     <property role="3F6X1D" value="5778444997714320301" />
