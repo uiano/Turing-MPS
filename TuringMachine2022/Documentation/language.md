@@ -5,7 +5,7 @@ It is necessary to know how a [Turing Machine](https://en.wikipedia.org/wiki/Tur
 
 What is most important to know for the Turing language is that it is split between a table machine and a combination machine.
 The table machine follows the more well known structure of a turing machine, with states that each contain write, move and goto operations based on the given read value.
-The combination machine however is designed to run other machines, but table machines and other combination machines.
+The combination machine however is designed to run other machines, both table machines and other combination machines.
 This means that it can perform more advanced operations by utilizing multiple more simplistic machines.
 
 ## Structure
