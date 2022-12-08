@@ -29,6 +29,7 @@ The CombinationMachine and CombinationState are pretty similar to the table mach
 The differences start with the CombinationOperation.
 The combination machine does not contain write or move, but it does contain a Conditional concept, a goto concept and a RunMachine concept.
 The Conditional concept is essentially the read functionality that also exists in the table machine, but unlike the table machine it is optional.
+Also unlike the table machine each element of the conditional concept is a list of operations rather than a single operation.
 The RunMachine concept contains a reference to a machine and is what allows the combination machine to run different machines.
 The Goto concept works the same way as the table machine equivalent.
 Unlike the table machine these concepts extend the CombinationOperation concept rather than being children of it.
