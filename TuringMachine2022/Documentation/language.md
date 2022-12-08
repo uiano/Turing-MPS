@@ -25,16 +25,17 @@ The table machine also uses a separate concept called HeaderString.
 This is used to create headers for the tables.
 
 ###Combination Machine
-The CombinationMachine and CombinationState are pretty similar to the table machine equivalents. 
+The CombinationMachine and CombinationState are pretty similar to the table machine equivalents, but with CombinationState having one list of operations rather than three individual ones.
 The differences start with the CombinationOperation.
-The combination machine does not contain write or move, but it does contain a Conditional concept and a RunMachine concept.
-The The Conditional concept is essentially the read functionality that also exists in the table machine, but unlike the table machine it is optional.
-The RunMachine aspect contains a reference to a machine and is what allows the combination machine to run different machines.
+The combination machine does not contain write or move, but it does contain a Conditional concept, a goto concept and a RunMachine concept.
+The Conditional concept is essentially the read functionality that also exists in the table machine, but unlike the table machine it is optional.
+The RunMachine concept contains a reference to a machine and is what allows the combination machine to run different machines.
+The Goto concept works the same way as the table machine equivalent.
 Unlike the table machine these concepts extend the CombinationOperation concept rather than being children of it.
 
 ## Constraints
 The constraints are the same for both machines.
-Firstly the initial aspect of the machines is set so it can only contain legal values.
+Firstly the initial string of the machines is set so it can only contain legal values.
 Secondly the states of a machine must all have unique names.
 Finally the goto concepts are constrained so that they can only point to states of the same machine.
 

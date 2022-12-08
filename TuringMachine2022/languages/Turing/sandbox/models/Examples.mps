@@ -19,6 +19,7 @@
     <language id="74e24c20-e15c-4f10-9922-01e07905d877" name="Turing">
       <concept id="8071635493804166448" name="Turing.structure.TableMachine" flags="ng" index="GDvy7">
         <property id="7394344529268220941" name="machineExplanation" index="13vP$x" />
+        <property id="7394344529268220943" name="exampleTape" index="13vP$z" />
         <child id="5778444997714455051" name="states" index="1MPwcn" />
       </concept>
       <concept id="8071635493804166445" name="Turing.structure.CombinationMachine" flags="ng" index="GDvyq">
@@ -2228,7 +2229,8 @@
     <property role="TrG5h" value="NOT" />
     <property role="3GV8ww" value="10100110" />
     <property role="3GE5qa" value="Binary" />
-    <property role="13vP$x" value="Inverses a binary number. The number can have blanks before or after" />
+    <property role="13vP$x" value="Inverts a binary number. The number can have blanks before or after" />
+    <property role="13vP$z" value="10100110" />
     <node concept="1MP3bn" id="6qtZiKA8kzd" role="1MPwcn">
       <property role="TrG5h" value="s1" />
       <node concept="1MP3a4" id="6qtZiKA8kze" role="1MP3bg">
