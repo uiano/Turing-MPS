@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b9a20813-62ac-45ec-b4b9-1e6f672a52f6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Documentation/TODO.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2017/.idea/turing.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2017/.mps/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2017/.mps/migration.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2017/.mps/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2017/.mps/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2017/TuringLang/.mps/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2017/TuringLang/.mps/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2017/TuringLang/.mps/markdown-exported-files.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2017/TuringLang/.mps/markdown-navigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2017/TuringLang/.mps/markdown-navigator/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2017/TuringLang/.mps/migration.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2017/TuringLang/.mps/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2017/TuringLang/.mps/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2017/TuringLang/.mps/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2017/TuringLang/.mps/version.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2017/TuringLang/.mps/workspace.xml.orig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2017/TuringLang/devkits/NewDevkit/NewDevkit.devkit" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2017/TuringLang/languages/Turing/Turing.mpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2017/TuringLang/languages/Turing/generator/template/main@generator.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2017/TuringLang/languages/Turing/models/actions.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2017/TuringLang/languages/Turing/models/behavior.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2017/TuringLang/languages/Turing/models/constraints.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2017/TuringLang/languages/Turing/models/editor.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2017/TuringLang/languages/Turing/models/intentions.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2017/TuringLang/languages/Turing/models/predef.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2017/TuringLang/languages/Turing/models/structure.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2017/TuringLang/languages/Turing/models/typesystem.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2017/TuringLang/languages/Turing/sandbox/Turing.sandbox.msd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2017/TuringLang/languages/Turing/sandbox/models/Turing.sandbox.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2017/TuringLang/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2017/TuringLang/solutions/Java.Runner/Java.Runner.msd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2017/TuringLang/solutions/Java.Runner/models/code.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2017/TuringLang/solutions/Java.Runner/models/src/turing/Bit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2017/TuringLang/solutions/Java.Runner/models/src/turing/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2017/TuringLang/solutions/Java.Runner/models/src/turing/Tape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2018/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2018/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2018/.idea/neweraturing.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2018/.mps/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2018/.mps/migration.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2018/.mps/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2018/.mps/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2018/TuringLang/.mps/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2018/TuringLang/.mps/markdown-exported-files.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2018/TuringLang/.mps/markdown-navigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2018/TuringLang/.mps/markdown-navigator/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2018/TuringLang/.mps/migration.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2018/TuringLang/.mps/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2018/TuringLang/.mps/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2018/TuringLang/.mps/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2018/TuringLang/.mps/version.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2018/TuringLang/.mps/workspace.xml.orig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2018/TuringLang/languages/Turing/Turing.mpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2018/TuringLang/languages/Turing/generator/template/main@generator.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2018/TuringLang/languages/Turing/models/actions.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2018/TuringLang/languages/Turing/models/behavior.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2018/TuringLang/languages/Turing/models/constraints.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2018/TuringLang/languages/Turing/models/editor.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2018/TuringLang/languages/Turing/models/intentions.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2018/TuringLang/languages/Turing/models/predef.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2018/TuringLang/languages/Turing/models/structure.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2018/TuringLang/languages/Turing/models/typesystem.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2018/TuringLang/languages/Turing/sandbox/Turing.sandbox.msd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2018/TuringLang/languages/Turing/sandbox/models/Turing.sandbox.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2018/TuringLang/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2018/TuringLang/solutions/Java.Runner/Java.Runner.msd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2018/TuringLang/solutions/Java.Runner/models/code.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2018/TuringLang/solutions/Java.Runner/models/src/turing/Bit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2018/TuringLang/solutions/Java.Runner/models/src/turing/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2018/TuringLang/solutions/Java.Runner/models/src/turing/Tape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2019/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2019/.mps/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2019/.mps/migration.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2019/.mps/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2019/.mps/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2019/languages/BinaryTuring/BinaryTuring.mpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2019/languages/BinaryTuring/generator/templates/main@generator.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2019/languages/BinaryTuring/models/BinaryTuring.behavior.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2019/languages/BinaryTuring/models/BinaryTuring.constraints.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2019/languages/BinaryTuring/models/BinaryTuring.editor.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2019/languages/BinaryTuring/models/BinaryTuring.structure.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2019/languages/BinaryTuring/models/BinaryTuring.typesystem.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2019/languages/BinaryTuring/sandbox/BinaryTuring.sandbox.msd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2019/languages/BinaryTuring/sandbox/models/BinaryTuring.sandbox.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2019/languages/BinaryTuring/sandbox/models/Examples.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2021/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2021/.mps/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2021/.mps/migration.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2021/.mps/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2021/.mps/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2021/Documentation/MPSTips.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2021/Documentation/TODO.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2021/Documentation/language.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2021/Documentation/manual.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2021/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2021/languages/Turing/Turing.mpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2021/languages/Turing/generator/templates/main@generator.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2021/languages/Turing/models/Turing.behavior.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2021/languages/Turing/models/Turing.constraints.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2021/languages/Turing/models/Turing.editor.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2021/languages/Turing/models/Turing.structure.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2021/languages/Turing/models/Turing.typesystem.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2021/languages/Turing/sandbox/Turing.sandbox.msd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2021/languages/Turing/sandbox/models/Examples.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2021/languages/Turing/sandbox/models/Turing.CombinationMachine.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2021/solutions/Plugin/Plugin.msd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TuringMachine2021/solutions/Plugin/models/Plugin.plugin.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mps/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mps/migration.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mps/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mps/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documentation/MPSTips.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documentation/TODO.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documentation/language.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documentation/manual.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Turing/Turing.mpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Turing/models/Turing.basicMachines.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Turing/models/Turing.behavior.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Turing/models/Turing.constraints.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Turing/models/Turing.editor.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Turing/models/Turing.structure.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Turing/models/Turing.typesystem.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Turing/sandbox/Turing.sandbox.msd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Turing/sandbox/models/Examples.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/Plugin/Plugin.msd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/Plugin/models/Plugin.plugin.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/TuringMachine2022.build/TuringMachine2022.build.msd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/TuringMachine2022.build/models/TuringMachine2022.build.mps" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ConsoleHistory">
+    <option name="tabs">
+      <list>
+        <TabState>
+          <option name="title" value="Console" />
+          <tab>
+            <model ref="4b4a1422-f81c-4428-b481-af487c098ab2/r:7ef842cd-d8ce-4d83-9762-076206b45eac(TempModule4b4a1422-f81c-4428-b481-af487c098ab2/ConsoleModel_725733900605000)">
+              <persistence version="9" />
+              <languages>
+                <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
+              </languages>
+              <imports />
+              <registry>
+                <language id="de1ad86d-6e50-4a02-b306-d4d17f64c375" name="jetbrains.mps.console.base">
+                  <concept id="1583916890557930028" name="jetbrains.mps.console.base.structure.ConsoleRoot" flags="ng" index="aymSD">
+                    <child id="1583916890557930415" name="history" index="aymYE" />
+                    <child id="1583916890557930417" name="commandHolder" index="aymYO" />
+                    <child id="9025248442620242919" name="cursor" index="1PhJh3" />
+                  </concept>
+                  <concept id="5758176878586720817" name="jetbrains.mps.console.base.structure.CommandHolderRef" flags="ng" index="2_V_lH">
+                    <reference id="5758176878586720818" name="target" index="2_V_lI" />
+                  </concept>
+                  <concept id="351968380916615243" name="jetbrains.mps.console.base.structure.CommandHolder" flags="ng" index="2Clz$F" />
+                  <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
+                </language>
+              </registry>
+              <node concept="aymSD" id="6VwJvzDwq3i">
+                <node concept="3balQm" id="6VwJvzDwq3j" role="aymYE" />
+                <node concept="2Clz$F" id="6VwJvzDwq3k" role="aymYO" />
+                <node concept="2_V_lH" id="6VwJvzDwq3l" role="1PhJh3">
+                  <ref role="2_V_lI" node="6VwJvzDwq3k" resolve="CommandHolder" />
+                </node>
+              </node>
+            </model>
+          </tab>
+        </TabState>
+      </list>
+    </option>
+  </component>
+  <component name="DefaultSearchOptions3">
+    <search_options>
+      <finders>
+        <finders />
+      </finders>
+      <scope>
+        <scope_type scope_type="PROJECT" module="&lt;default&gt;" model="&lt;default&gt;" />
+      </scope>
+      <view>
+        <flags show_one_result="true" new_tab="false" />
+      </view>
+    </search_options>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MPSBookmarkManager">
+    <option name="myBookmarkInfos">
+      <array>
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+      </array>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MessagesViewTool">
+    <option name="defaultListState">
+      <MessageListState>
+        <option name="autoscrollToSource" value="true" />
+        <option name="info" value="true" />
+        <option name="warnings" value="true" />
+      </MessageListState>
+    </option>
+  </component>
+  <component name="ProjectId" id="2IB3UsaIfVKirLuroBBvdFrWhg2" />
+  <component name="ProjectPluginManager">
+    <option name="pluginsState">
+      <option name="jetbrains.mps.ide.actions.Ide_ProjectPlugin">
+        <value>
+          <PluginState>
+            <option name="myComponentsState">
+              <list>
+                <ComponentState>
+                  <option name="first" value="jetbrains.mps.ide.actions.BehaviorDialogsPersistentOptions_PreferencesComponent" />
+                  <params>
+                    <option name="addReturnsOnImplement" value="false" />
+                    <option name="sortAlphabetically" value="false" />
+                    <option name="removeAttributes" value="true" />
+                  </params>
+                </ComponentState>
+              </list>
+            </option>
+          </PluginState>
+        </value>
+      </option>
+    </option>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1" />
+    <panes>
+      <pane id="FileSystem">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane />
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration name="TuringMachine2022" type="Build Script" factoryName="Build Script" temporary="true">
+      <myNodePointer>
+        <MyState>
+          <option name="myNodePointer" value="r:5e9e99f3-dea3-43ab-82da-f02a0d7ab786(TuringMachine2022.build)/7394344529270375430" />
+          <option name="myNodeText" value="TuringMachine2022.build.TuringMachine2022" />
+        </MyState>
+      </myNodePointer>
+      <mySettings>
+        <MyState>
+          <option name="myUseOtherAntLocation" value="false" />
+          <option name="myOtherAntLocation" />
+          <option name="myAntOptions" />
+        </MyState>
+      </mySettings>
+      <method v="2">
+        <option name="jetbrains.mps.execution.configurations.pluginSolution.plugin.MakeNodePointers_BeforeTask" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Build Script.TuringMachine2022" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\jonat\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b9a20813-62ac-45ec-b4b9-1e6f672a52f6" name="Changes" comment="" />
+      <created>1669641168345</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669641168345</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UsagesViewTool">
+    <version id="1" />
+    <tabs />
+    <default_view_options>
+      <options category_option="false" module_option="true" model_option="true" root_option="true" path_option="false" count_option="true" info_option="true" view_searched_nodes_option="true" group_searched_nodes_option="true" autoscroll_option="false" />
+    </default_view_options>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
