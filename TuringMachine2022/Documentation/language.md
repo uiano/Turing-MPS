@@ -68,7 +68,7 @@ In the Turing language, there is a editor component for the run button used in t
 The TableMachine_Behavior contains two functions for setting the tape value, one from the run button and one from the run machine functionality in the file overview, as well as initialize the MachineState class.
 This class contains the runtime version of the tape and executes all operations on it.
 This includes read, write and move, as well as printing the final version of the tape.
-The final function in the TableMachine_Behavior starts the machine itself by taking an instance of MachineState and sending it to the first TableState of the machine.
+The third function in the TableMachine_Behavior starts the machine itself by taking an instance of MachineState and sending it to the first TableState of the machine.
 The TableState_Behavior then fetches the read value from the tape and runs one of the three operations.
 The TableOperation_Behavior runs write, move and goto.
 TableWrite_Behavior checks it's own value and calls a write command to the MachineState.
