@@ -2517,5 +2517,18 @@
       </node>
     </node>
   </node>
+  <node concept="GDvyq" id="43rvgf6bklS">
+    <property role="3GE5qa" value="Binary" />
+    <property role="3aUW7m" value="bla" />
+    <property role="3aUW7j" value="00" />
+    <property role="TrG5h" value="test" />
+    <property role="3GV8ww" value="10101" />
+    <node concept="1MP3b9" id="43rvgf6bklT" role="1MPwcr">
+      <property role="TrG5h" value="start" />
+      <node concept="1MPCsw" id="43rvgf6bklV" role="1MP3ba">
+        <ref role="1MPCsx" to="ninq:6qtZiK_U3U4" resolve="one" />
+      </node>
+    </node>
+  </node>
 </model>
 
