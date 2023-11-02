@@ -11,9 +11,26 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="8ca79d43-eb45-4791-bdd4-0d6130ff895b" name="de.itemis.mps.editor.diagram.layout">
+      <concept id="6720495385597071406" name="de.itemis.mps.editor.diagram.layout.structure.Layout_Box" flags="ng" index="gqqVs">
+        <property id="6720495385597071504" name="bounds_height" index="gqqTy" />
+        <property id="6720495385597071502" name="bounds_y" index="gqqTW" />
+        <property id="6720495385597071503" name="bounds_width" index="gqqTX" />
+        <property id="6720495385597071501" name="bounds_x" index="gqqTZ" />
+        <property id="4583510071007917016" name="transform" index="TgtnS" />
+      </concept>
+      <concept id="8963411245960991886" name="de.itemis.mps.editor.diagram.layout.structure.LayoutMap" flags="ng" index="37mRI7">
+        <child id="8963411245960991904" name="entries" index="37mRID" />
+      </concept>
+      <concept id="8963411245960991903" name="de.itemis.mps.editor.diagram.layout.structure.LayoutMapEntry" flags="ng" index="37mRIm">
+        <property id="8963411245960998400" name="key" index="37mO49" />
+        <child id="8963411245960998404" name="value" index="37mO4d" />
       </concept>
     </language>
     <language id="74e24c20-e15c-4f10-9922-01e07905d877" name="Turing">
@@ -26,6 +43,7 @@
         <property id="7961880380310915542" name="exampleTape" index="3aUW7j" />
         <property id="7961880380310915539" name="machineExplanation" index="3aUW7m" />
         <child id="5778444997714455047" name="states" index="1MPwcr" />
+        <child id="6646072230272070733" name="gotos" index="1SNYcQ" />
       </concept>
       <concept id="8071635493804166440" name="Turing.structure.Machine" flags="ng" index="GDvyv">
         <property id="3678715891658384572" name="initial" index="3GV8ww" />
@@ -62,6 +80,11 @@
         <child id="5778444997714660985" name="one" index="1MQQt_" />
         <child id="5778444997714660981" name="zero" index="1MQQtD" />
         <child id="5778444997714660976" name="blank" index="1MQQtG" />
+      </concept>
+      <concept id="6646072230272070723" name="Turing.structure.GoTo" flags="ng" index="1SNYcS">
+        <property id="6646072230272070731" name="condition" index="1SNYcK" />
+        <reference id="6646072230272070726" name="to" index="1SNYcX" />
+        <reference id="6646072230272070724" name="from" index="1SNYcZ" />
       </concept>
     </language>
   </registry>
@@ -2528,6 +2551,74 @@
       <node concept="1MPCsw" id="43rvgf6bklV" role="1MP3ba">
         <ref role="1MPCsx" to="ninq:6qtZiK_U3U4" resolve="one" />
       </node>
+    </node>
+  </node>
+  <node concept="GDvyq" id="5KV_RG$YQJS">
+    <property role="3GE5qa" value="Binary" />
+    <property role="3aUW7m" value="Test" />
+    <property role="3aUW7j" value="1001" />
+    <property role="TrG5h" value="test" />
+    <property role="3GV8ww" value="0101" />
+    <node concept="1SNYcS" id="5KV_RG_0iqN" role="1SNYcQ">
+      <property role="1SNYcK" value="50LahKyThIW/one" />
+      <ref role="1SNYcZ" node="5KV_RG$YQJT" resolve="start" />
+      <ref role="1SNYcX" node="5KV_RG_0iqP" resolve="end" />
+    </node>
+    <node concept="37mRI7" id="5KV_RG_2l_U" role="lGtFl">
+      <node concept="37mRIm" id="5KV_RG_2l_V" role="37mRID">
+        <property role="37mO49" value="6646072230272527353" />
+        <node concept="gqqVs" id="5KV_RG_2l_T" role="37mO4d">
+          <property role="gqqTZ" value="39.0" />
+          <property role="gqqTW" value="14.0" />
+          <property role="gqqTX" value="52.0" />
+          <property role="gqqTy" value="54.0" />
+          <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
+        </node>
+      </node>
+      <node concept="37mRIm" id="5KV_RG_2l_X" role="37mRID">
+        <property role="37mO49" value="6646072230272902837" />
+        <node concept="gqqVs" id="5KV_RG_2l_W" role="37mO4d">
+          <property role="gqqTZ" value="0.0" />
+          <property role="gqqTW" value="0.0" />
+          <property role="gqqTX" value="44.0" />
+          <property role="gqqTy" value="54.0" />
+          <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
+        </node>
+      </node>
+      <node concept="37mRIm" id="5KV_RG_37CM" role="37mRID">
+        <property role="37mO49" value="6646072230273645090" />
+        <node concept="gqqVs" id="5KV_RG_37CL" role="37mO4d">
+          <property role="gqqTZ" value="781.0001" />
+          <property role="gqqTW" value="311.0" />
+          <property role="gqqTX" value="204.0" />
+          <property role="gqqTy" value="54.0" />
+          <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
+        </node>
+      </node>
+      <node concept="37mRIm" id="5KV_RG_37D7" role="37mRID">
+        <property role="37mO49" value="6646072230273645107" />
+        <node concept="gqqVs" id="5KV_RG_37D6" role="37mO4d">
+          <property role="gqqTZ" value="12.000100000000003" />
+          <property role="gqqTW" value="12.0" />
+          <property role="gqqTX" value="204.0" />
+          <property role="gqqTy" value="54.0" />
+          <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
+        </node>
+      </node>
+    </node>
+    <node concept="1MP3b9" id="5KV_RG_37Cy" role="1MPwcr">
+      <property role="TrG5h" value="start" />
+      <node concept="1MPCsw" id="5KV_RG_37CA" role="1MP3ba" />
+    </node>
+    <node concept="1MP3b9" id="5KV_RG_37CN" role="1MPwcr">
+      <property role="TrG5h" value="end" />
+      <node concept="1MPCsw" id="5KV_RG_37D3" role="1MP3ba">
+        <ref role="1MPCsx" to="ninq:6qtZiK_U3U4" resolve="one" />
+      </node>
+    </node>
+    <node concept="1SNYcS" id="5KV_RG_37Dh" role="1SNYcQ">
+      <ref role="1SNYcZ" node="5KV_RG_37CN" resolve="end" />
+      <ref role="1SNYcX" node="5KV_RG_37Cy" resolve="start" />
     </node>
   </node>
 </model>

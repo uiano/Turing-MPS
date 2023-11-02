@@ -149,48 +149,6 @@
       <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
     </language>
   </registry>
-  <node concept="1M2fIO" id="3cdr9NvU_$0">
-    <property role="3GE5qa" value="combination_machine" />
-    <ref role="1M2myG" to="uzpx:50LahKyTxF9" resolve="GoTo" />
-    <node concept="1N5Pfh" id="3cdr9NvU_$1" role="1Mr941">
-      <ref role="1N5Vy1" to="uzpx:50LahKyUwAw" resolve="state" />
-      <node concept="3dgokm" id="3cdr9NvU_A7" role="1N6uqs">
-        <node concept="3clFbS" id="3cdr9NvU_A8" role="2VODD2">
-          <node concept="3cpWs8" id="3cdr9NvUCeW" role="3cqZAp">
-            <node concept="3cpWsn" id="3cdr9NvUCeZ" role="3cpWs9">
-              <property role="TrG5h" value="parent" />
-              <node concept="3Tqbb2" id="3cdr9NvUCeU" role="1tU5fm">
-                <ref role="ehGHo" to="uzpx:704drtsCsOH" resolve="CombinationMachine" />
-              </node>
-              <node concept="2OqwBi" id="3cdr9NvUDaI" role="33vP2m">
-                <node concept="2rP1CM" id="3cdr9NvUCFq" role="2Oq$k0" />
-                <node concept="2Xjw5R" id="3cdr9NvUDgT" role="2OqNvi">
-                  <node concept="1xMEDy" id="3cdr9NvUDgV" role="1xVPHs">
-                    <node concept="chp4Y" id="3cdr9NvUDiA" role="ri$Ld">
-                      <ref role="cht4Q" to="uzpx:704drtsCsOH" resolve="CombinationMachine" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3cpWs6" id="3cdr9NvUHdW" role="3cqZAp">
-            <node concept="2YIFZM" id="3cdr9NvUHAx" role="3cqZAk">
-              <ref role="37wK5l" to="o8zo:6t3ylNOzI9Y" resolve="forNamedElements" />
-              <ref role="1Pybhc" to="o8zo:7ipADkTevLm" resolve="SimpleRoleScope" />
-              <node concept="37vLTw" id="3cdr9NvUHC_" role="37wK5m">
-                <ref role="3cqZAo" node="3cdr9NvUCeZ" resolve="parent" />
-              </node>
-              <node concept="359W_D" id="3cdr9NvUIwS" role="37wK5m">
-                <ref role="359W_E" to="uzpx:704drtsCsOH" resolve="CombinationMachine" />
-                <ref role="359W_F" to="uzpx:50LahKyTMC7" resolve="states" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="1M2fIO" id="3cdr9NvUQin">
     <property role="3GE5qa" value="combination_machine" />
     <ref role="1M2myG" to="uzpx:704drtsCsOH" resolve="CombinationMachine" />
