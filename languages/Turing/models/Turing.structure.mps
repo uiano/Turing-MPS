@@ -41,7 +41,6 @@
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
-        <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
@@ -103,7 +102,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="states" />
       <property role="20lbJX" value="fLJekj6/_1__n" />
-      <ref role="20lvS9" node="50LahKyThJl" resolve="CombinationState" />
+      <ref role="20lvS9" node="50LahKyThJl" resolve="Activity" />
     </node>
     <node concept="1TJgyj" id="5KV_RG$X7hd" role="1TKVEi">
       <property role="IQ2ns" value="6646072230272070733" />
@@ -268,7 +267,7 @@
   <node concept="1TIwiD" id="50LahKyThJl">
     <property role="EcuMT" value="5778444997714320341" />
     <property role="3GE5qa" value="combination_machine" />
-    <property role="TrG5h" value="CombinationState" />
+    <property role="TrG5h" value="Activity" />
     <ref role="1TJDcQ" node="50LahKyTis$" resolve="State" />
     <node concept="1TJgyj" id="50LahKyThJm" role="1TKVEi">
       <property role="IQ2ns" value="5778444997714320342" />
@@ -298,7 +297,6 @@
     <property role="EcuMT" value="5778444997714488892" />
     <property role="3GE5qa" value="combination_machine" />
     <property role="TrG5h" value="RunMachine" />
-    <property role="34LRSv" value="run" />
     <ref role="1TJDcQ" node="50LahKyTisz" resolve="Operation" />
     <node concept="1TJgyj" id="50LahKyTUSX" role="1TKVEi">
       <property role="IQ2ns" value="5778444997714488893" />
@@ -371,18 +369,43 @@
       <property role="IQ2ns" value="6646072230272070724" />
       <property role="20kJfa" value="from" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="50LahKyThJl" resolve="CombinationState" />
+      <ref role="20lvS9" node="50LahKyThJl" resolve="Activity" />
     </node>
     <node concept="1TJgyj" id="5KV_RG$X7h6" role="1TKVEi">
       <property role="IQ2ns" value="6646072230272070726" />
       <property role="20kJfa" value="to" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="50LahKyThJl" resolve="CombinationState" />
+      <ref role="20lvS9" node="50LahKyThJl" resolve="Activity" />
     </node>
-    <node concept="1TJgyi" id="5KV_RG$X7hb" role="1TKVEl">
-      <property role="IQ2nx" value="6646072230272070731" />
+    <node concept="1TJgyi" id="1JRWyQhjlj_" role="1TKVEl">
+      <property role="IQ2nx" value="2015345635796800741" />
       <property role="TrG5h" value="condition" />
-      <ref role="AX2Wp" node="50LahKyThIH" resolve="CellValue" />
+      <ref role="AX2Wp" node="1JRWyQhjljk" resolve="Condition" />
+    </node>
+  </node>
+  <node concept="25R3W" id="1JRWyQhjljk">
+    <property role="3F6X1D" value="2015345635796800724" />
+    <property role="3GE5qa" value="combination_machine" />
+    <property role="TrG5h" value="Condition" />
+    <node concept="25R33" id="1JRWyQhjljm" role="25R1y">
+      <property role="3tVfz5" value="2015345635796800726" />
+      <property role="TrG5h" value="zero" />
+      <property role="1L1pqM" value="0" />
+    </node>
+    <node concept="25R33" id="1JRWyQhjljl" role="25R1y">
+      <property role="3tVfz5" value="2015345635796800725" />
+      <property role="TrG5h" value="one" />
+      <property role="1L1pqM" value="1" />
+    </node>
+    <node concept="25R33" id="1JRWyQhjljp" role="25R1y">
+      <property role="3tVfz5" value="2015345635796800729" />
+      <property role="TrG5h" value="blank" />
+      <property role="1L1pqM" value="#" />
+    </node>
+    <node concept="25R33" id="1JRWyQhjljt" role="25R1y">
+      <property role="3tVfz5" value="2015345635796800733" />
+      <property role="TrG5h" value="any" />
+      <property role="1L1pqM" value="*" />
     </node>
   </node>
 </model>

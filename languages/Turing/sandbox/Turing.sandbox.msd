@@ -19,6 +19,7 @@
   </dependencies>
   <languageVersions>
     <language slang="l:74e24c20-e15c-4f10-9922-01e07905d877:Turing" version="0" />
+    <language slang="l:8ca79d43-eb45-4791-bdd4-0d6130ff895b:de.itemis.mps.editor.diagram.layout" version="0" />
     <language slang="l:ceab5195-25ea-4f22-9b92-103b95ca8c0c:jetbrains.mps.lang.core" version="2" />
   </languageVersions>
   <dependencyVersions>
