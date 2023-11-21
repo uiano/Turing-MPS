@@ -1262,14 +1262,6 @@
   <node concept="13h7C7" id="50LahKyTUVm">
     <property role="3GE5qa" value="combination_machine" />
     <ref role="13h7C2" to="uzpx:50LahKyThJl" resolve="Activity" />
-    <node concept="13i0hz" id="37ZYPhcrpot" role="13h7CS">
-      <property role="TrG5h" value="init" />
-      <node concept="3Tm1VV" id="37ZYPhcrpou" role="1B3o_S" />
-      <node concept="3cqZAl" id="37ZYPhcrrbE" role="3clF45" />
-      <node concept="3clFbS" id="37ZYPhcrpow" role="3clF47">
-        <node concept="3clFbH" id="37ZYPhcrrcf" role="3cqZAp" />
-      </node>
-    </node>
     <node concept="13hLZK" id="50LahKyTUVn" role="13h7CW">
       <node concept="3clFbS" id="50LahKyTUVo" role="2VODD2">
         <node concept="3clFbF" id="dg4y9BBRK1" role="3cqZAp">
