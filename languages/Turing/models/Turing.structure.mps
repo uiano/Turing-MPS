@@ -276,6 +276,11 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="50LahKyTUSW" resolve="RunMachine" />
     </node>
+    <node concept="1TJgyi" id="2scu_saAQb3" role="1TKVEl">
+      <property role="IQ2nx" value="2813758381458416323" />
+      <property role="TrG5h" value="initial" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
   </node>
   <node concept="1TIwiD" id="50LahKyTisz">
     <property role="EcuMT" value="5778444997714323235" />
@@ -462,6 +467,44 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="50LahKyThJl" resolve="Activity" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="nNTUZqyuUD">
+    <property role="EcuMT" value="428941132002094761" />
+    <property role="3GE5qa" value="Runtime Elements" />
+    <property role="TrG5h" value="RT_TableMachine" />
+    <ref role="1TJDcQ" node="nNTUZqyYQW" resolve="RuntimeElement" />
+    <node concept="1TJgyj" id="nNTUZqyuUF" role="1TKVEi">
+      <property role="IQ2ns" value="428941132002094763" />
+      <property role="20kJfa" value="instanceOf" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="704drtsCsOK" resolve="TableMachine" />
+    </node>
+    <node concept="1TJgyj" id="nNTUZqyw0b" role="1TKVEi">
+      <property role="IQ2ns" value="428941132002099211" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="states" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="nNTUZqyw0f" resolve="RT_TableState" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="nNTUZqyw0f">
+    <property role="TrG5h" value="RT_TableState" />
+    <property role="EcuMT" value="428941132002099215" />
+    <property role="3GE5qa" value="Runtime Elements" />
+    <ref role="1TJDcQ" node="nNTUZqyYQW" resolve="RuntimeElement" />
+    <node concept="1TJgyj" id="nNTUZqyUj$" role="1TKVEi">
+      <property role="IQ2ns" value="428941132002206948" />
+      <property role="20kJfa" value="instanceOf" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="50LahKyThJb" resolve="TableState" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="nNTUZqyYQW">
+    <property role="EcuMT" value="428941132002225596" />
+    <property role="3GE5qa" value="Runtime Elements" />
+    <property role="TrG5h" value="RuntimeElement" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
   </node>
 </model>
 
