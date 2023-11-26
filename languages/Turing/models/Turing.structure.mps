@@ -44,6 +44,7 @@
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
+      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ" />
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
@@ -417,7 +418,6 @@
     <property role="EcuMT" value="3602874566397768482" />
     <property role="3GE5qa" value="Runtime Elements" />
     <property role="TrG5h" value="RT_CombinationMachine" />
-    <ref role="1TJDcQ" node="nNTUZqyYQW" resolve="RuntimeElement" />
     <node concept="1TJgyj" id="5hBJWuGNTuP" role="1TKVEi">
       <property role="IQ2ns" value="6082040686105827253" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -436,12 +436,14 @@
       <property role="TrG5h" value="isRunning" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
+    <node concept="PrWs8" id="GkHW4YQ4nR" role="PzmwI">
+      <ref role="PrY4T" node="GkHW4YQ3h4" resolve="RuntimeElement" />
+    </node>
   </node>
   <node concept="1TIwiD" id="37ZYPhcruGH">
     <property role="EcuMT" value="3602874566397782829" />
     <property role="3GE5qa" value="Runtime Elements" />
     <property role="TrG5h" value="RT_Activity" />
-    <ref role="1TJDcQ" node="nNTUZqyYQW" resolve="RuntimeElement" />
     <node concept="1TJgyi" id="5hBJWuGOqXV" role="1TKVEl">
       <property role="IQ2nx" value="6082040686105964411" />
       <property role="TrG5h" value="index" />
@@ -467,12 +469,14 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="50LahKyThJl" resolve="Activity" />
     </node>
+    <node concept="PrWs8" id="GkHW4YQ3qB" role="PzmwI">
+      <ref role="PrY4T" node="GkHW4YQ3h4" resolve="RuntimeElement" />
+    </node>
   </node>
   <node concept="1TIwiD" id="nNTUZqyuUD">
     <property role="EcuMT" value="428941132002094761" />
     <property role="3GE5qa" value="Runtime Elements" />
     <property role="TrG5h" value="RT_TableMachine" />
-    <ref role="1TJDcQ" node="nNTUZqyYQW" resolve="RuntimeElement" />
     <node concept="1TJgyj" id="nNTUZqyuUF" role="1TKVEi">
       <property role="IQ2ns" value="428941132002094763" />
       <property role="20kJfa" value="instanceOf" />
@@ -491,12 +495,14 @@
       <property role="TrG5h" value="isFinished" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
+    <node concept="PrWs8" id="GkHW4YQ4nT" role="PzmwI">
+      <ref role="PrY4T" node="GkHW4YQ3h4" resolve="RuntimeElement" />
+    </node>
   </node>
   <node concept="1TIwiD" id="nNTUZqyw0f">
     <property role="TrG5h" value="RT_TableState" />
     <property role="EcuMT" value="428941132002099215" />
     <property role="3GE5qa" value="Runtime Elements" />
-    <ref role="1TJDcQ" node="nNTUZqyYQW" resolve="RuntimeElement" />
     <node concept="1TJgyj" id="nNTUZqyUj$" role="1TKVEi">
       <property role="IQ2ns" value="428941132002206948" />
       <property role="20kJfa" value="instanceOf" />
@@ -514,13 +520,14 @@
       <property role="TrG5h" value="isFinished" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
+    <node concept="PrWs8" id="GkHW4YQ4nV" role="PzmwI">
+      <ref role="PrY4T" node="GkHW4YQ3h4" resolve="RuntimeElement" />
+    </node>
   </node>
-  <node concept="1TIwiD" id="nNTUZqyYQW">
-    <property role="EcuMT" value="428941132002225596" />
+  <node concept="PlHQZ" id="GkHW4YQ3h4">
+    <property role="EcuMT" value="798465074562348100" />
     <property role="3GE5qa" value="Runtime Elements" />
     <property role="TrG5h" value="RuntimeElement" />
-    <property role="R5$K7" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
   </node>
 </model>
 
