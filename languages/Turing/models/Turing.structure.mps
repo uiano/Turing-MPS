@@ -105,12 +105,26 @@
       <property role="20lbJX" value="fLJekj6/_1__n" />
       <ref role="20lvS9" node="50LahKyThJl" resolve="Activity" />
     </node>
+    <node concept="1TJgyj" id="37ZYPhcvoN_" role="1TKVEi">
+      <property role="IQ2ns" value="3602874566398807269" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="startpointer" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="37ZYPhcvoNy" resolve="StartPointer" />
+    </node>
     <node concept="1TJgyj" id="5KV_RG$X7hd" role="1TKVEi">
       <property role="IQ2ns" value="6646072230272070733" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="gotos" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="5KV_RG$X7h3" resolve="GoTo" />
+    </node>
+    <node concept="1TJgyj" id="37ZYPhcvoWZ" role="1TKVEi">
+      <property role="IQ2ns" value="3602874566398807871" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="gotoinit" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="37ZYPhcvoNE" resolve="GoToInit" />
     </node>
     <node concept="1TJgyi" id="6TYi0m$_oBj" role="1TKVEl">
       <property role="IQ2nx" value="7961880380310915539" />
@@ -276,11 +290,6 @@
       <property role="20kJfa" value="operations" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="50LahKyTUSW" resolve="RunMachine" />
-    </node>
-    <node concept="1TJgyi" id="2scu_saAQb3" role="1TKVEl">
-      <property role="IQ2nx" value="2813758381458416323" />
-      <property role="TrG5h" value="initial" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
   </node>
   <node concept="1TIwiD" id="50LahKyTisz">
@@ -528,6 +537,30 @@
     <property role="EcuMT" value="798465074562348100" />
     <property role="3GE5qa" value="Runtime Elements" />
     <property role="TrG5h" value="RuntimeElement" />
+  </node>
+  <node concept="1TIwiD" id="37ZYPhcvoNy">
+    <property role="EcuMT" value="3602874566398807266" />
+    <property role="3GE5qa" value="combination_machine" />
+    <property role="TrG5h" value="StartPointer" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+  </node>
+  <node concept="1TIwiD" id="37ZYPhcvoNE">
+    <property role="EcuMT" value="3602874566398807274" />
+    <property role="3GE5qa" value="combination_machine" />
+    <property role="TrG5h" value="GoToInit" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="37ZYPhcvoNF" role="1TKVEi">
+      <property role="IQ2ns" value="3602874566398807275" />
+      <property role="20kJfa" value="from" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="37ZYPhcvoNy" resolve="StartPointer" />
+    </node>
+    <node concept="1TJgyj" id="37ZYPhcvoNG" role="1TKVEi">
+      <property role="IQ2ns" value="3602874566398807276" />
+      <property role="20kJfa" value="to" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="50LahKyThJl" resolve="Activity" />
+    </node>
   </node>
 </model>
 

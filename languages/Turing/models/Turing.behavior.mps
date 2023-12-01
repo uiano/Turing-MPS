@@ -272,7 +272,6 @@
       <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
       <concept id="1178286324487" name="jetbrains.mps.baseLanguage.collections.structure.SortDirection" flags="nn" index="1nlBCl" />
       <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
-      <concept id="1225727723840" name="jetbrains.mps.baseLanguage.collections.structure.FindFirstOperation" flags="nn" index="1z4cxt" />
       <concept id="1202120902084" name="jetbrains.mps.baseLanguage.collections.structure.WhereOperation" flags="nn" index="3zZkjj" />
       <concept id="1202128969694" name="jetbrains.mps.baseLanguage.collections.structure.SelectOperation" flags="nn" index="3$u5V9" />
     </language>
@@ -865,17 +864,6 @@
                   <ref role="37wK5l" to="33ny:~UUID.randomUUID()" resolve="randomUUID" />
                   <ref role="1Pybhc" to="33ny:~UUID" resolve="UUID" />
                 </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="2scu_sb8Iri" role="3cqZAp">
-          <node concept="37vLTI" id="2scu_sb8JoP" role="3clFbG">
-            <node concept="3clFbT" id="2scu_sb8JuS" role="37vLTx" />
-            <node concept="2OqwBi" id="2scu_sb8IB0" role="37vLTJ">
-              <node concept="13iPFW" id="2scu_sb8Irg" role="2Oq$k0" />
-              <node concept="3TrcHB" id="2scu_sb8IXo" role="2OqNvi">
-                <ref role="3TsBF5" to="uzpx:2scu_saAQb3" resolve="initial" />
               </node>
             </node>
           </node>
@@ -2166,37 +2154,20 @@
             <node concept="3Tqbb2" id="5hBJWuGNTyH" role="1tU5fm">
               <ref role="ehGHo" to="uzpx:50LahKyThJl" resolve="Activity" />
             </node>
-            <node concept="2OqwBi" id="5hBJWuGO1O_" role="33vP2m">
-              <node concept="2OqwBi" id="5hBJWuGNUcj" role="2Oq$k0">
+            <node concept="2OqwBi" id="37ZYPhcwBpF" role="33vP2m">
+              <node concept="2OqwBi" id="37ZYPhcwzG7" role="2Oq$k0">
                 <node concept="2OqwBi" id="5hBJWuGNTIF" role="2Oq$k0">
                   <node concept="13iPFW" id="5hBJWuGNT_b" role="2Oq$k0" />
                   <node concept="3TrEf2" id="5hBJWuGNTYW" role="2OqNvi">
                     <ref role="3Tt5mk" to="uzpx:37ZYPhcruGr" resolve="instanceOf" />
                   </node>
                 </node>
-                <node concept="3Tsc0h" id="5hBJWuGNZCy" role="2OqNvi">
-                  <ref role="3TtcxE" to="uzpx:50LahKyTMC7" resolve="states" />
+                <node concept="3TrEf2" id="37ZYPhcw$PE" role="2OqNvi">
+                  <ref role="3Tt5mk" to="uzpx:37ZYPhcvoWZ" resolve="gotoinit" />
                 </node>
               </node>
-              <node concept="1z4cxt" id="5hBJWuGO7NR" role="2OqNvi">
-                <node concept="1bVj0M" id="5hBJWuGO7NT" role="23t8la">
-                  <node concept="3clFbS" id="5hBJWuGO7NU" role="1bW5cS">
-                    <node concept="3clFbF" id="5hBJWuGO7Sf" role="3cqZAp">
-                      <node concept="2OqwBi" id="5hBJWuGO86q" role="3clFbG">
-                        <node concept="37vLTw" id="5hBJWuGO7Se" role="2Oq$k0">
-                          <ref role="3cqZAo" node="5hBJWuGO7NV" resolve="it" />
-                        </node>
-                        <node concept="3TrcHB" id="5hBJWuGO8Bq" role="2OqNvi">
-                          <ref role="3TsBF5" to="uzpx:2scu_saAQb3" resolve="initial" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="Rh6nW" id="5hBJWuGO7NV" role="1bW2Oz">
-                    <property role="TrG5h" value="it" />
-                    <node concept="2jxLKc" id="5hBJWuGO7NW" role="1tU5fm" />
-                  </node>
-                </node>
+              <node concept="3TrEf2" id="37ZYPhcwBEQ" role="2OqNvi">
+                <ref role="3Tt5mk" to="uzpx:37ZYPhcvoNG" resolve="to" />
               </node>
             </node>
           </node>
