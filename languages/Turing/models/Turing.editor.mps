@@ -71,6 +71,9 @@
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
       </concept>
+      <concept id="1186414999511" name="jetbrains.mps.lang.editor.structure.UnderlinedStyleClassItem" flags="ln" index="VQ3r3">
+        <property id="1214316229833" name="underlined" index="2USNnj" />
+      </concept>
       <concept id="1081293058843" name="jetbrains.mps.lang.editor.structure.CellKeyMapDeclaration" flags="ig" index="325Ffw">
         <reference id="1139445935125" name="applicableConcept" index="1chiOs" />
         <child id="1136930944870" name="item" index="2QnnpI" />
@@ -587,6 +590,12 @@
     <ref role="1XX52x" to="uzpx:50LahKyThJl" resolve="Activity" />
     <node concept="2ZK4vF" id="5KV_RG_1XyS" role="2wV5jI">
       <node concept="3EZMnI" id="3cdr9NvR$Aa" role="1ytjkN">
+        <node concept="3F0A7n" id="1rM8DU5iJ7Q" role="3EZMnx">
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          <node concept="VQ3r3" id="1rM8DU5rxqn" role="3F10Kt">
+            <property role="2USNnj" value="gtbM8PH/underlined" />
+          </node>
+        </node>
         <node concept="3F0ifn" id="52k_imUB_uG" role="3EZMnx">
           <property role="3F0ifm" value="Run Machines:" />
           <node concept="VechU" id="52k_imUCOwF" role="3F10Kt">
