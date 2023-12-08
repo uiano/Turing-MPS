@@ -193,7 +193,7 @@
     <property role="EcuMT" value="5778444997714320280" />
     <property role="TrG5h" value="TableOperation" />
     <property role="3GE5qa" value="table_machine" />
-    <ref role="1TJDcQ" node="50LahKyTisz" resolve="Operation" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6qtZiK_t9Ww" role="1TKVEi">
       <property role="IQ2ns" value="7394344529261010720" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -292,13 +292,6 @@
       <ref role="20lvS9" node="50LahKyTUSW" resolve="RunMachine" />
     </node>
   </node>
-  <node concept="1TIwiD" id="50LahKyTisz">
-    <property role="EcuMT" value="5778444997714323235" />
-    <property role="3GE5qa" value="common" />
-    <property role="TrG5h" value="Operation" />
-    <property role="R5$K7" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-  </node>
   <node concept="1TIwiD" id="50LahKyTis$">
     <property role="EcuMT" value="5778444997714323236" />
     <property role="3GE5qa" value="common" />
@@ -312,7 +305,7 @@
     <property role="EcuMT" value="5778444997714488892" />
     <property role="3GE5qa" value="combination_machine" />
     <property role="TrG5h" value="RunMachine" />
-    <ref role="1TJDcQ" node="50LahKyTisz" resolve="Operation" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="50LahKyTUSX" role="1TKVEi">
       <property role="IQ2ns" value="5778444997714488893" />
       <property role="20kJfa" value="machine" />
