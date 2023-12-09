@@ -449,7 +449,7 @@
         <ref role="1k5W1q" to="tpco:3VARyd8XcQs" resolve="Comment" />
       </node>
       <node concept="3F0A7n" id="6TYi0m$_oJ3" role="3EZMnx">
-        <ref role="1NtTu8" to="uzpx:6TYi0m$_oBm" resolve="exampleTape" />
+        <ref role="1NtTu8" to="uzpx:7j2XzPflY$H" resolve="exampleTape" />
         <ref role="1k5W1q" to="tpco:3VARyd8XcQs" resolve="Comment" />
         <node concept="ljvvj" id="6TYi0m$_oJp" role="3F10Kt">
           <property role="VOm3f" value="true" />
@@ -1008,7 +1008,7 @@
         <ref role="1k5W1q" to="tpco:3VARyd8XcQs" resolve="Comment" />
       </node>
       <node concept="3F0A7n" id="6qtZiK_SEvm" role="3EZMnx">
-        <ref role="1NtTu8" to="uzpx:6qtZiK_SEgf" resolve="exampleTape" />
+        <ref role="1NtTu8" to="uzpx:7j2XzPflY$H" resolve="exampleTape" />
         <ref role="1k5W1q" to="tpco:3VARyd8XcQs" resolve="Comment" />
         <node concept="ljvvj" id="6qtZiK_SEwh" role="3F10Kt">
           <property role="VOm3f" value="true" />
@@ -3385,7 +3385,7 @@
           <property role="3F0ifm" value="Example Tape:" />
         </node>
         <node concept="3F0A7n" id="60d_l_K$e2h" role="3EZMnx">
-          <ref role="1NtTu8" to="uzpx:6TYi0m$_oBm" resolve="exampleTape" />
+          <ref role="1NtTu8" to="uzpx:7j2XzPflY$H" resolve="exampleTape" />
         </node>
         <node concept="2iRfu4" id="60d_l_K$e1W" role="2iSdaV" />
       </node>

@@ -18,10 +18,10 @@
     </language>
     <language id="74e24c20-e15c-4f10-9922-01e07905d877" name="Turing">
       <concept id="8071635493804166448" name="Turing.structure.TableMachine" flags="ng" index="GDvy7">
-        <property id="7394344529268220943" name="exampleTape" index="13vP$z" />
         <child id="5778444997714455051" name="states" index="1MPwcn" />
       </concept>
       <concept id="8071635493804166440" name="Turing.structure.Machine" flags="ng" index="GDvyv">
+        <property id="8413557797066107181" name="exampleTape" index="V_hWg" />
         <property id="8413557797064340469" name="machineExplanation" index="VZwn8" />
       </concept>
       <concept id="7394344529261010718" name="Turing.structure.TableGoto" flags="ng" index="13Um8M">
@@ -207,8 +207,8 @@
   </node>
   <node concept="GDvy7" id="6qtZiK_U3YS">
     <property role="TrG5h" value="Find0Right" />
-    <property role="13vP$z" value="1" />
     <property role="VZwn8" value="Finds the nearest 0 on the right of the current position" />
+    <property role="V_hWg" value="1" />
     <node concept="1MP3bn" id="6qtZiKA8kgt" role="1MPwcn">
       <property role="TrG5h" value="s1" />
       <node concept="1MP3a4" id="6qtZiKA8kgu" role="1MP3bg">
@@ -498,8 +498,8 @@
   </node>
   <node concept="GDvy7" id="6qtZiK_W5Qj">
     <property role="TrG5h" value="RemoveLeadingZeros" />
-    <property role="13vP$z" value="00001001" />
     <property role="VZwn8" value="Fills in # for all zeroes before a 1, useful for binary operations." />
+    <property role="V_hWg" value="00001001" />
     <node concept="1MP3bn" id="6qtZiKA8kxE" role="1MPwcn">
       <property role="TrG5h" value="s1" />
       <node concept="1MP3a4" id="6qtZiKA8kxF" role="1MP3bg">

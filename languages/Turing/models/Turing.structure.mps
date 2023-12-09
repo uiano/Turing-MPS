@@ -90,6 +90,11 @@
       <property role="TrG5h" value="machineExplanation" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+    <node concept="1TJgyi" id="7j2XzPflY$H" role="1TKVEl">
+      <property role="IQ2nx" value="8413557797066107181" />
+      <property role="TrG5h" value="exampleTape" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
   </node>
   <node concept="1TIwiD" id="704drtsCsOH">
     <property role="EcuMT" value="8071635493804166445" />
@@ -125,11 +130,6 @@
       <property role="20kJfa" value="gotoinit" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="37ZYPhcvoNE" resolve="GoToInit" />
-    </node>
-    <node concept="1TJgyi" id="6TYi0m$_oBm" role="1TKVEl">
-      <property role="IQ2nx" value="7961880380310915542" />
-      <property role="TrG5h" value="exampleTape" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1irR5M" id="6qtZiK_NnD9" role="rwd14">
       <property role="2$rrk2" value="1" />
@@ -172,11 +172,6 @@
           <property role="3PKj8l" value="000000" />
         </node>
       </node>
-    </node>
-    <node concept="1TJgyi" id="6qtZiK_SEgf" role="1TKVEl">
-      <property role="IQ2nx" value="7394344529268220943" />
-      <property role="TrG5h" value="exampleTape" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
   <node concept="1TIwiD" id="50LahKyThIo">
