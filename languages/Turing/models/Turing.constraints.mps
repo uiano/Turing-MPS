@@ -213,55 +213,6 @@
   <node concept="1M2fIO" id="3cdr9NvUQin">
     <property role="3GE5qa" value="combination_machine" />
     <ref role="1M2myG" to="uzpx:704drtsCsOH" resolve="CombinationMachine" />
-    <node concept="EnEH3" id="3cdr9NvURnT" role="1MhHOB">
-      <ref role="EomxK" to="uzpx:3cdr9NvSuiW" resolve="initial" />
-      <node concept="QB0g5" id="3cdr9NvURrY" role="QCWH9">
-        <node concept="3clFbS" id="3cdr9NvURrZ" role="2VODD2">
-          <node concept="3cpWs8" id="3cdr9NvUTow" role="3cqZAp">
-            <node concept="3cpWsn" id="3cdr9NvUTox" role="3cpWs9">
-              <property role="TrG5h" value="p" />
-              <node concept="3uibUv" id="3cdr9NvUToy" role="1tU5fm">
-                <ref role="3uigEE" to="ni5j:~Pattern" resolve="Pattern" />
-              </node>
-              <node concept="2YIFZM" id="3cdr9NvUTp_" role="33vP2m">
-                <ref role="37wK5l" to="ni5j:~Pattern.compile(java.lang.String)" resolve="compile" />
-                <ref role="1Pybhc" to="ni5j:~Pattern" resolve="Pattern" />
-                <node concept="Xl_RD" id="3cdr9NvUTq6" role="37wK5m">
-                  <property role="Xl_RC" value="[10#]*" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3cpWs8" id="3cdr9NvUTz3" role="3cqZAp">
-            <node concept="3cpWsn" id="3cdr9NvUTz4" role="3cpWs9">
-              <property role="TrG5h" value="m" />
-              <node concept="3uibUv" id="3cdr9NvUTz5" role="1tU5fm">
-                <ref role="3uigEE" to="ni5j:~Matcher" resolve="Matcher" />
-              </node>
-              <node concept="2OqwBi" id="3cdr9NvUTOv" role="33vP2m">
-                <node concept="37vLTw" id="3cdr9NvUTC6" role="2Oq$k0">
-                  <ref role="3cqZAo" node="3cdr9NvUTox" resolve="p" />
-                </node>
-                <node concept="liA8E" id="3cdr9NvUTXi" role="2OqNvi">
-                  <ref role="37wK5l" to="ni5j:~Pattern.matcher(java.lang.CharSequence)" resolve="matcher" />
-                  <node concept="1Wqviy" id="3cdr9NvUTYk" role="37wK5m" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3cpWs6" id="3cdr9NvUU6h" role="3cqZAp">
-            <node concept="2OqwBi" id="3cdr9NvUUwx" role="3cqZAk">
-              <node concept="37vLTw" id="3cdr9NvUUeU" role="2Oq$k0">
-                <ref role="3cqZAo" node="3cdr9NvUTz4" resolve="m" />
-              </node>
-              <node concept="liA8E" id="3cdr9NvUUDs" role="2OqNvi">
-                <ref role="37wK5l" to="ni5j:~Matcher.matches()" resolve="matches" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
     <node concept="9SLcT" id="dg4y9BEaFN" role="9SGkU">
       <node concept="3clFbS" id="dg4y9BEaFO" role="2VODD2">
         <node concept="3cpWs8" id="dg4y9BEsbI" role="3cqZAp">
@@ -558,55 +509,6 @@
   <node concept="1M2fIO" id="6qtZiK_Jsft">
     <property role="3GE5qa" value="table_machine" />
     <ref role="1M2myG" to="uzpx:704drtsCsOK" resolve="TableMachine" />
-    <node concept="EnEH3" id="6qtZiK_JslI" role="1MhHOB">
-      <ref role="EomxK" to="uzpx:3cdr9NvSuiW" resolve="initial" />
-      <node concept="QB0g5" id="6qtZiK_Jsqc" role="QCWH9">
-        <node concept="3clFbS" id="6qtZiK_Jsqd" role="2VODD2">
-          <node concept="3cpWs8" id="6qtZiK_Jsqe" role="3cqZAp">
-            <node concept="3cpWsn" id="6qtZiK_Jsqf" role="3cpWs9">
-              <property role="TrG5h" value="p" />
-              <node concept="3uibUv" id="6qtZiK_Jsqg" role="1tU5fm">
-                <ref role="3uigEE" to="ni5j:~Pattern" resolve="Pattern" />
-              </node>
-              <node concept="2YIFZM" id="6qtZiK_Jsqh" role="33vP2m">
-                <ref role="1Pybhc" to="ni5j:~Pattern" resolve="Pattern" />
-                <ref role="37wK5l" to="ni5j:~Pattern.compile(java.lang.String)" resolve="compile" />
-                <node concept="Xl_RD" id="6qtZiK_Jsqi" role="37wK5m">
-                  <property role="Xl_RC" value="[10#]*" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3cpWs8" id="6qtZiK_Jsqj" role="3cqZAp">
-            <node concept="3cpWsn" id="6qtZiK_Jsqk" role="3cpWs9">
-              <property role="TrG5h" value="m" />
-              <node concept="3uibUv" id="6qtZiK_Jsql" role="1tU5fm">
-                <ref role="3uigEE" to="ni5j:~Matcher" resolve="Matcher" />
-              </node>
-              <node concept="2OqwBi" id="6qtZiK_Jsqm" role="33vP2m">
-                <node concept="37vLTw" id="6qtZiK_Jsqn" role="2Oq$k0">
-                  <ref role="3cqZAo" node="6qtZiK_Jsqf" resolve="p" />
-                </node>
-                <node concept="liA8E" id="6qtZiK_Jsqo" role="2OqNvi">
-                  <ref role="37wK5l" to="ni5j:~Pattern.matcher(java.lang.CharSequence)" resolve="matcher" />
-                  <node concept="1Wqviy" id="6qtZiK_Jsqp" role="37wK5m" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3cpWs6" id="6qtZiK_Jsqq" role="3cqZAp">
-            <node concept="2OqwBi" id="6qtZiK_Jsqr" role="3cqZAk">
-              <node concept="37vLTw" id="6qtZiK_Jsqs" role="2Oq$k0">
-                <ref role="3cqZAo" node="6qtZiK_Jsqk" resolve="m" />
-              </node>
-              <node concept="liA8E" id="6qtZiK_Jsqt" role="2OqNvi">
-                <ref role="37wK5l" to="ni5j:~Matcher.matches()" resolve="matches" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
   </node>
   <node concept="1M2fIO" id="6qtZiK_JuZb">
     <property role="3GE5qa" value="table_machine" />
@@ -862,6 +764,59 @@
         <node concept="3cpWs6" id="1JRWyQho6CO" role="3cqZAp">
           <node concept="3clFbT" id="1JRWyQho6E4" role="3cqZAk">
             <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="60d_l_KyILh">
+    <property role="3GE5qa" value="common" />
+    <ref role="1M2myG" to="uzpx:3cdr9NvREcB" resolve="InitialTape" />
+    <node concept="EnEH3" id="60d_l_KyILi" role="1MhHOB">
+      <ref role="EomxK" to="uzpx:3cdr9NvREcC" resolve="value" />
+      <node concept="QB0g5" id="60d_l_KyINq" role="QCWH9">
+        <node concept="3clFbS" id="60d_l_KyINr" role="2VODD2">
+          <node concept="3cpWs8" id="60d_l_KyISh" role="3cqZAp">
+            <node concept="3cpWsn" id="60d_l_KyISi" role="3cpWs9">
+              <property role="TrG5h" value="p" />
+              <node concept="3uibUv" id="60d_l_KyISj" role="1tU5fm">
+                <ref role="3uigEE" to="ni5j:~Pattern" resolve="Pattern" />
+              </node>
+              <node concept="2YIFZM" id="60d_l_KyISk" role="33vP2m">
+                <ref role="37wK5l" to="ni5j:~Pattern.compile(java.lang.String)" resolve="compile" />
+                <ref role="1Pybhc" to="ni5j:~Pattern" resolve="Pattern" />
+                <node concept="Xl_RD" id="60d_l_KyISl" role="37wK5m">
+                  <property role="Xl_RC" value="[10#]*" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3cpWs8" id="60d_l_KyISm" role="3cqZAp">
+            <node concept="3cpWsn" id="60d_l_KyISn" role="3cpWs9">
+              <property role="TrG5h" value="m" />
+              <node concept="3uibUv" id="60d_l_KyISo" role="1tU5fm">
+                <ref role="3uigEE" to="ni5j:~Matcher" resolve="Matcher" />
+              </node>
+              <node concept="2OqwBi" id="60d_l_KyISp" role="33vP2m">
+                <node concept="37vLTw" id="60d_l_KyISq" role="2Oq$k0">
+                  <ref role="3cqZAo" node="60d_l_KyISi" resolve="p" />
+                </node>
+                <node concept="liA8E" id="60d_l_KyISr" role="2OqNvi">
+                  <ref role="37wK5l" to="ni5j:~Pattern.matcher(java.lang.CharSequence)" resolve="matcher" />
+                  <node concept="1Wqviy" id="60d_l_KyISs" role="37wK5m" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3cpWs6" id="60d_l_KyISt" role="3cqZAp">
+            <node concept="2OqwBi" id="60d_l_KyISu" role="3cqZAk">
+              <node concept="37vLTw" id="60d_l_KyISv" role="2Oq$k0">
+                <ref role="3cqZAo" node="60d_l_KyISn" resolve="m" />
+              </node>
+              <node concept="liA8E" id="60d_l_KyISw" role="2OqNvi">
+                <ref role="37wK5l" to="ni5j:~Matcher.matches()" resolve="matches" />
+              </node>
+            </node>
           </node>
         </node>
       </node>
