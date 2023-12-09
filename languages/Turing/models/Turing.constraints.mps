@@ -771,7 +771,7 @@
   </node>
   <node concept="1M2fIO" id="60d_l_KyILh">
     <property role="3GE5qa" value="common" />
-    <ref role="1M2myG" to="uzpx:3cdr9NvREcB" resolve="InitialTape" />
+    <ref role="1M2myG" to="uzpx:3cdr9NvREcB" resolve="Tape" />
     <node concept="EnEH3" id="60d_l_KyILi" role="1MhHOB">
       <ref role="EomxK" to="uzpx:3cdr9NvREcC" resolve="value" />
       <node concept="QB0g5" id="60d_l_KyINq" role="QCWH9">

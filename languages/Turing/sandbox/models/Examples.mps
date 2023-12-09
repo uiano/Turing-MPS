@@ -77,6 +77,17 @@
       <concept id="7394344529261010715" name="Turing.structure.TableMove" flags="ng" index="13Um8R">
         <property id="7394344529261010716" name="move" index="13Um8K" />
       </concept>
+      <concept id="8127056960954937078" name="Turing.structure.MachineTest" flags="ng" index="1bRbn9">
+        <child id="8127056960954937083" name="expected" index="1bRbn4" />
+        <child id="8127056960954937081" name="input" index="1bRbn6" />
+      </concept>
+      <concept id="8127056960954937072" name="Turing.structure.TestSuite" flags="ng" index="1bRbnf">
+        <reference id="8127056960954937075" name="machine" index="1bRbnc" />
+        <child id="8127056960954937086" name="tests" index="1bRbn1" />
+      </concept>
+      <concept id="3678715891658171175" name="Turing.structure.Tape" flags="ng" index="3GOWYV">
+        <property id="3678715891658171176" name="value" index="3GOWYO" />
+      </concept>
       <concept id="5778444997714320280" name="Turing.structure.TableOperation" flags="ng" index="1MP3a4">
         <child id="7394344529261010720" name="write" index="13Um8c" />
         <child id="7394344529261010721" name="move" index="13Um8d" />
@@ -5756,6 +5767,19 @@
       <property role="2aIEr8" value="1JRWyQhjljm/zero" />
       <ref role="1SNYcZ" node="7tz465s9tM6" resolve="CompareForOne" />
       <ref role="1SNYcX" node="7tz465s9tTa" resolve="ReturnFalse" />
+    </node>
+  </node>
+  <node concept="1bRbnf" id="7396NWV6QN_">
+    <property role="TrG5h" value="NotTests" />
+    <ref role="1bRbnc" node="5Gn7HNu5ZrF" resolve="NOT" />
+    <node concept="1bRbn9" id="7396NWV6QNA" role="1bRbn1">
+      <property role="TrG5h" value="Inverts Simple Input" />
+      <node concept="3GOWYV" id="7396NWV6QNB" role="1bRbn6">
+        <property role="3GOWYO" value="101" />
+      </node>
+      <node concept="3GOWYV" id="7396NWV6QNC" role="1bRbn4">
+        <property role="3GOWYO" value="010" />
+      </node>
     </node>
   </node>
 </model>
