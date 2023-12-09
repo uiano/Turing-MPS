@@ -6,7 +6,7 @@
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   </imports>
   <registry>
     <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
@@ -85,6 +85,11 @@
     <node concept="PrWs8" id="704drtsCsOD" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+    <node concept="1TJgyi" id="7j2XzPffffP" role="1TKVEl">
+      <property role="IQ2nx" value="8413557797064340469" />
+      <property role="TrG5h" value="machineExplanation" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
   </node>
   <node concept="1TIwiD" id="704drtsCsOH">
     <property role="EcuMT" value="8071635493804166445" />
@@ -120,11 +125,6 @@
       <property role="20kJfa" value="gotoinit" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="37ZYPhcvoNE" resolve="GoToInit" />
-    </node>
-    <node concept="1TJgyi" id="6TYi0m$_oBj" role="1TKVEl">
-      <property role="IQ2nx" value="7961880380310915539" />
-      <property role="TrG5h" value="machineExplanation" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyi" id="6TYi0m$_oBm" role="1TKVEl">
       <property role="IQ2nx" value="7961880380310915542" />
@@ -172,11 +172,6 @@
           <property role="3PKj8l" value="000000" />
         </node>
       </node>
-    </node>
-    <node concept="1TJgyi" id="6qtZiK_SEgd" role="1TKVEl">
-      <property role="IQ2nx" value="7394344529268220941" />
-      <property role="TrG5h" value="machineExplanation" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyi" id="6qtZiK_SEgf" role="1TKVEl">
       <property role="IQ2nx" value="7394344529268220943" />

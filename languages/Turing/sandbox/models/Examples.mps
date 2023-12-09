@@ -53,19 +53,18 @@
     </language>
     <language id="74e24c20-e15c-4f10-9922-01e07905d877" name="Turing">
       <concept id="8071635493804166448" name="Turing.structure.TableMachine" flags="ng" index="GDvy7">
-        <property id="7394344529268220941" name="machineExplanation" index="13vP$x" />
         <property id="7394344529268220943" name="exampleTape" index="13vP$z" />
         <child id="5778444997714455051" name="states" index="1MPwcn" />
       </concept>
       <concept id="8071635493804166445" name="Turing.structure.CombinationMachine" flags="ng" index="GDvyq">
         <property id="7961880380310915542" name="exampleTape" index="3aUW7j" />
-        <property id="7961880380310915539" name="machineExplanation" index="3aUW7m" />
         <child id="5778444997714455047" name="states" index="1MPwcr" />
         <child id="6646072230272070733" name="gotos" index="1SNYcQ" />
         <child id="3602874566398807871" name="gotoinit" index="1XwBhF" />
         <child id="3602874566398807269" name="startpointer" index="1XwBuL" />
       </concept>
       <concept id="8071635493804166440" name="Turing.structure.Machine" flags="ng" index="GDvyv">
+        <property id="8413557797064340469" name="machineExplanation" index="VZwn8" />
       </concept>
       <concept id="7394344529261010718" name="Turing.structure.TableGoto" flags="ng" index="13Um8M">
         <reference id="7394344529261010719" name="next" index="13Um8N" />
@@ -126,9 +125,9 @@
   </registry>
   <node concept="GDvyq" id="5Gn7HNu4YJY">
     <property role="TrG5h" value="AND" />
-    <property role="3aUW7m" value="take in two binary numbers and outputs the result of an AND operation on them. the two numbers must be split by a blank(#). " />
     <property role="3aUW7j" value="100111011111011#110011111110101" />
     <property role="3GE5qa" value="Binary" />
+    <property role="VZwn8" value="take in two binary numbers and outputs the result of an AND operation on them. the two numbers must be split by a blank(#). " />
     <node concept="1MP3b9" id="5cwelSRy4Oz" role="1MPwcr">
       <property role="TrG5h" value="initial" />
     </node>
@@ -1406,8 +1405,8 @@
     </node>
     <node concept="1SNYcS" id="1wxObn3uXgx" role="1SNYcQ">
       <property role="2aIEr8" value="1JRWyQhjljl/one" />
-      <ref role="1SNYcZ" node="5cwelSRy4Oz" resolve="initia" />
-      <ref role="1SNYcX" node="1wxObn3uXeM" resolve="writeBlank" />
+      <ref role="1SNYcZ" node="5cwelSRy4Oz" resolve="initial" />
+      <ref role="1SNYcX" node="1wxObn3uXeM" resolve="onOneWriteBlank" />
     </node>
     <node concept="1SNYcS" id="1wxObn3uXir" role="1SNYcQ">
       <property role="2aIEr8" value="1JRWyQhjljm/zero" />
@@ -1442,11 +1441,11 @@
     <node concept="1SNYcS" id="1wxObn3uXmw" role="1SNYcQ">
       <property role="2aIEr8" value="1JRWyQhjljt/any" />
       <ref role="1SNYcZ" node="5Gn7HNu4YTq" resolve="zeroState" />
-      <ref role="1SNYcX" node="1wxObn3uXkJ" resolve="onOneZeroState" />
+      <ref role="1SNYcX" node="1wxObn3uXkJ" resolve="onOneAndZeroZeroState" />
     </node>
     <node concept="1SNYcS" id="1wxObn3uXmD" role="1SNYcQ">
       <property role="2aIEr8" value="1JRWyQhjljt/any" />
-      <ref role="1SNYcZ" node="1wxObn3uXkJ" resolve="onOneZeroState" />
+      <ref role="1SNYcZ" node="1wxObn3uXkJ" resolve="onOneAndZeroZeroState" />
       <ref role="1SNYcX" node="5Gn7HNu4Z4l" resolve="normalZeroState" />
     </node>
     <node concept="1SNYcS" id="1wxObn3uXFe" role="1SNYcQ">
@@ -1567,9 +1566,9 @@
   </node>
   <node concept="GDvyq" id="2TOORkgN$Pu">
     <property role="TrG5h" value="Decrement" />
-    <property role="3aUW7m" value="takes binary value and returns one number lower in binary" />
     <property role="3aUW7j" value="10100" />
     <property role="3GE5qa" value="Binary" />
+    <property role="VZwn8" value="takes binary value and returns one number lower in binary" />
     <node concept="1MP3b9" id="1wxObn3uW_p" role="1MPwcr">
       <property role="TrG5h" value="initial" />
       <property role="H_Lyk" value="true" />
@@ -2153,9 +2152,9 @@
   </node>
   <node concept="GDvyq" id="3cdr9NvS9kn">
     <property role="TrG5h" value="Increment" />
-    <property role="3aUW7m" value="takes a binary value and returns one number higher in binary" />
     <property role="3aUW7j" value="110101" />
     <property role="3GE5qa" value="Binary" />
+    <property role="VZwn8" value="takes a binary value and returns one number higher in binary" />
     <node concept="1MP3b9" id="3cdr9NvUb$Z" role="1MPwcr">
       <property role="TrG5h" value="initial" />
       <property role="H_Lyk" value="true" />
@@ -2541,7 +2540,7 @@
     <node concept="1SNYcS" id="1wxObn3uWtJ" role="1SNYcQ">
       <property role="2aIEr8" value="1JRWyQhjljt/any" />
       <ref role="1SNYcZ" node="1wxObn3uVQD" resolve="onAny" />
-      <ref role="1SNYcX" node="1wxObn3uWss" resolve="activity00feba21-4e1a-49db-af92-f807e8b47237" />
+      <ref role="1SNYcX" node="1wxObn3uWss" resolve="increment" />
     </node>
     <node concept="1SNYcS" id="1wxObn3uWvX" role="1SNYcQ">
       <property role="2aIEr8" value="1JRWyQhjljt/any" />
@@ -2551,9 +2550,9 @@
   </node>
   <node concept="GDvyq" id="5Gn7HNu5ZrF">
     <property role="TrG5h" value="NOT" />
-    <property role="3aUW7m" value="Inverts a binary number, run together with other bit-wise operations like AND for NAND" />
     <property role="3aUW7j" value="101010101" />
     <property role="3GE5qa" value="Binary" />
+    <property role="VZwn8" value="Inverts a binary number, run together with other bit-wise operations like AND for NAND" />
     <node concept="1MP3b9" id="5cwelSRya08" role="1MPwcr">
       <property role="TrG5h" value="initial" />
     </node>
@@ -2997,9 +2996,9 @@
   </node>
   <node concept="GDvyq" id="5Gn7HNu5YWj">
     <property role="TrG5h" value="OR" />
-    <property role="3aUW7m" value="OR bit-wise operation between two binary numbers" />
     <property role="3aUW7j" value="100100001#110011010" />
     <property role="3GE5qa" value="Binary" />
+    <property role="VZwn8" value="OR bit-wise operation between two binary numbers" />
     <node concept="1SNYcS" id="1wxObn3v8_Q" role="1SNYcQ">
       <property role="2aIEr8" value="1JRWyQhjljp/blank" />
       <ref role="1SNYcZ" node="5Gn7HNu5YWk" resolve="initial" />
@@ -3396,9 +3395,9 @@
   </node>
   <node concept="GDvyq" id="5Gn7HNu5ZnB">
     <property role="TrG5h" value="XOR" />
-    <property role="3aUW7m" value="XOR bit-wise operation between two binary numbers" />
     <property role="3aUW7j" value="10111001#11001010" />
     <property role="3GE5qa" value="Binary" />
+    <property role="VZwn8" value="XOR bit-wise operation between two binary numbers" />
     <node concept="1MP3b9" id="5Gn7HNu5ZnC" role="1MPwcr">
       <property role="TrG5h" value="initial" />
       <node concept="1MQQtN" id="5Gn7HNu5ZnD" role="1MP3ba">
@@ -3732,9 +3731,9 @@
   </node>
   <node concept="GDvyq" id="4yW9_lu2Rp0">
     <property role="TrG5h" value="Diff" />
-    <property role="3aUW7m" value="Finds the difference between two unary numbers. This is done by removing the smallest number from the largest, as such the final answer is on the side that contains the larger number" />
     <property role="3aUW7j" value="1111#1111" />
     <property role="3GE5qa" value="Unary" />
+    <property role="VZwn8" value="Finds the difference between two unary numbers. This is done by removing the smallest number from the largest, as such the final answer is on the side that contains the larger number" />
     <node concept="1MP3b9" id="5pZfhJK5Vuk" role="1MPwcr">
       <property role="TrG5h" value="initial" />
       <node concept="1MQQtN" id="5pZfhJK5Vul" role="1MP3ba">
@@ -4192,9 +4191,9 @@
   </node>
   <node concept="GDvyq" id="4yW9_lu3Dm1">
     <property role="TrG5h" value="EqualCheck" />
-    <property role="3aUW7m" value="checks if two unary numbers splitted by a blank(#) are equal by having the the head either  point at the blank in the middle to show they are equal, or at the first numer to show they are not." />
     <property role="3aUW7j" value="1111#111" />
     <property role="3GE5qa" value="Unary" />
+    <property role="VZwn8" value="checks if two unary numbers splitted by a blank(#) are equal by having the the head either  point at the blank in the middle to show they are equal, or at the first numer to show they are not." />
     <node concept="1MP3b9" id="5pZfhJK5VCT" role="1MPwcr">
       <property role="TrG5h" value="initial" />
       <node concept="1MQQtN" id="5pZfhJK5VCU" role="1MP3ba">
@@ -4459,9 +4458,9 @@
   </node>
   <node concept="GDvyq" id="4yW9_lu2Rtf">
     <property role="TrG5h" value="GCD" />
-    <property role="3aUW7m" value="Finds the greatest common divisor between two numbers in unary" />
     <property role="3aUW7j" value="111111#111111111111111111" />
     <property role="3GE5qa" value="Unary" />
+    <property role="VZwn8" value="Finds the greatest common divisor between two numbers in unary" />
     <node concept="1MP3b9" id="4yW9_lu2Rtg" role="1MPwcr">
       <property role="TrG5h" value="initial" />
       <node concept="1MQQtN" id="4yW9_lu2Rti" role="1MP3ba">
@@ -4530,9 +4529,9 @@
   </node>
   <node concept="GDvyq" id="4yW9_lu2Oak">
     <property role="TrG5h" value="SortUnary" />
-    <property role="3aUW7m" value="Takes in two unary numbers(1's and blanks(#)) and moves the largest first and points at the first 1 in it. the two unary numbers must be split by a blank." />
     <property role="3aUW7j" value="#1111111#1111111111111#" />
     <property role="3GE5qa" value="Unary" />
+    <property role="VZwn8" value="Takes in two unary numbers(1's and blanks(#)) and moves the largest first and points at the first 1 in it. the two unary numbers must be split by a blank." />
     <node concept="1MP3b9" id="4yW9_lu2Oal" role="1MPwcr">
       <property role="TrG5h" value="initial" />
       <node concept="1MQQtN" id="4yW9_lu2Oaq" role="1MP3ba">
@@ -4700,8 +4699,8 @@
   <node concept="GDvy7" id="6qtZiK_wyq8">
     <property role="TrG5h" value="NOT" />
     <property role="3GE5qa" value="Binary" />
-    <property role="13vP$x" value="Inverts a binary number. The number can have blanks before or after" />
     <property role="13vP$z" value="10100110" />
+    <property role="VZwn8" value="Inverts a binary number. The number can have blanks before or after" />
     <node concept="1MP3bn" id="6qtZiKA8kzd" role="1MPwcn">
       <property role="TrG5h" value="s1" />
       <node concept="1MP3a4" id="6qtZiKA8kze" role="1MP3bg">
@@ -4775,7 +4774,7 @@
   <node concept="GDvy7" id="6qtZiKA0RZZ">
     <property role="3GE5qa" value="Unary" />
     <property role="TrG5h" value="Copy" />
-    <property role="13vP$x" value="Copies a unary number" />
+    <property role="VZwn8" value="Copies a unary number" />
     <node concept="1MP3bn" id="6qtZiKA8kEP" role="1MPwcn">
       <property role="TrG5h" value="s1" />
       <node concept="1MP3a4" id="6qtZiKA8kEQ" role="1MP3bg">
@@ -4989,9 +4988,9 @@
   </node>
   <node concept="GDvyq" id="43rvgf6bklS">
     <property role="3GE5qa" value="Binary" />
-    <property role="3aUW7m" value="bla" />
     <property role="3aUW7j" value="00" />
     <property role="TrG5h" value="test" />
+    <property role="VZwn8" value="bla" />
     <node concept="1MP3b9" id="5cwelSRy573" role="1MPwcr">
       <property role="TrG5h" value="start" />
       <node concept="1MPCsw" id="5cwelSRy57b" role="1MP3ba">
@@ -5378,8 +5377,8 @@
   <node concept="GDvyq" id="7tz465s9tLF">
     <property role="3GE5qa" value="Binary" />
     <property role="TrG5h" value="PalindromeDetector" />
-    <property role="3aUW7m" value="Detects if a given string is a palindrome" />
     <property role="3aUW7j" value="1001" />
+    <property role="VZwn8" value="Detects if a given string is a palindrome" />
     <node concept="1MP3b9" id="7tz465s9tLG" role="1MPwcr">
       <property role="TrG5h" value="FindStartOfString" />
       <node concept="1MPCsw" id="7tz465s9tLJ" role="1MP3ba">

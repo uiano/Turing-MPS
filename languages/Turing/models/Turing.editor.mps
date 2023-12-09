@@ -20,7 +20,7 @@
     <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
     <import index="fbzs" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.geom(JDK/)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
-    <import index="uzpx" ref="r:74e2f2c7-7ccf-409e-b9cd-586ec9e59462(Turing.structure)" implicit="true" />
+    <import index="uzpx" ref="r:74e2f2c7-7ccf-409e-b9cd-586ec9e59462(Turing.structure)" />
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
@@ -438,7 +438,7 @@
         <ref role="1k5W1q" to="tpco:3VARyd8XcQs" resolve="Comment" />
       </node>
       <node concept="3F0A7n" id="6TYi0m$_oHr" role="3EZMnx">
-        <ref role="1NtTu8" to="uzpx:6TYi0m$_oBj" resolve="machineExplanation" />
+        <ref role="1NtTu8" to="uzpx:7j2XzPffffP" resolve="machineExplanation" />
         <ref role="1k5W1q" to="tpco:3VARyd8XcQs" resolve="Comment" />
         <node concept="ljvvj" id="6TYi0m$_oHI" role="3F10Kt">
           <property role="VOm3f" value="true" />
@@ -997,7 +997,7 @@
         <ref role="1k5W1q" to="tpco:3VARyd8XcQs" resolve="Comment" />
       </node>
       <node concept="3F0A7n" id="6qtZiK_SEj_" role="3EZMnx">
-        <ref role="1NtTu8" to="uzpx:6qtZiK_SEgd" resolve="machineExplanation" />
+        <ref role="1NtTu8" to="uzpx:7j2XzPffffP" resolve="machineExplanation" />
         <ref role="1k5W1q" to="tpco:3VARyd8XcQs" resolve="Comment" />
         <node concept="ljvvj" id="6qtZiK_SEkt" role="3F10Kt">
           <property role="VOm3f" value="true" />
@@ -3375,7 +3375,7 @@
           <property role="3F0ifm" value="Explanation" />
         </node>
         <node concept="3F0A7n" id="60d_l_K$e1x" role="3EZMnx">
-          <ref role="1NtTu8" to="uzpx:6TYi0m$_oBj" resolve="machineExplanation" />
+          <ref role="1NtTu8" to="uzpx:7j2XzPffffP" resolve="machineExplanation" />
         </node>
         <node concept="2iRfu4" id="60d_l_K$dNY" role="2iSdaV" />
       </node>
