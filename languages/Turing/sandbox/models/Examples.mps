@@ -66,7 +66,6 @@
         <child id="3602874566398807269" name="startpointer" index="1XwBuL" />
       </concept>
       <concept id="8071635493804166440" name="Turing.structure.Machine" flags="ng" index="GDvyv">
-        <property id="3678715891658384572" name="initial" index="3GV8ww" />
       </concept>
       <concept id="7394344529261010718" name="Turing.structure.TableGoto" flags="ng" index="13Um8M">
         <reference id="7394344529261010719" name="next" index="13Um8N" />
@@ -127,7 +126,6 @@
   </registry>
   <node concept="GDvyq" id="5Gn7HNu4YJY">
     <property role="TrG5h" value="AND" />
-    <property role="3GV8ww" value="########100111011111011########110011111110101######" />
     <property role="3aUW7m" value="take in two binary numbers and outputs the result of an AND operation on them. the two numbers must be split by a blank(#). " />
     <property role="3aUW7j" value="100111011111011#110011111110101" />
     <property role="3GE5qa" value="Binary" />
@@ -1569,7 +1567,6 @@
   </node>
   <node concept="GDvyq" id="2TOORkgN$Pu">
     <property role="TrG5h" value="Decrement" />
-    <property role="3GV8ww" value="#0010100" />
     <property role="3aUW7m" value="takes binary value and returns one number lower in binary" />
     <property role="3aUW7j" value="10100" />
     <property role="3GE5qa" value="Binary" />
@@ -2156,7 +2153,6 @@
   </node>
   <node concept="GDvyq" id="3cdr9NvS9kn">
     <property role="TrG5h" value="Increment" />
-    <property role="3GV8ww" value="110101" />
     <property role="3aUW7m" value="takes a binary value and returns one number higher in binary" />
     <property role="3aUW7j" value="110101" />
     <property role="3GE5qa" value="Binary" />
@@ -2555,7 +2551,6 @@
   </node>
   <node concept="GDvyq" id="5Gn7HNu5ZrF">
     <property role="TrG5h" value="NOT" />
-    <property role="3GV8ww" value="101010101" />
     <property role="3aUW7m" value="Inverts a binary number, run together with other bit-wise operations like AND for NAND" />
     <property role="3aUW7j" value="101010101" />
     <property role="3GE5qa" value="Binary" />
@@ -3002,7 +2997,6 @@
   </node>
   <node concept="GDvyq" id="5Gn7HNu5YWj">
     <property role="TrG5h" value="OR" />
-    <property role="3GV8ww" value="100100001#110011010" />
     <property role="3aUW7m" value="OR bit-wise operation between two binary numbers" />
     <property role="3aUW7j" value="100100001#110011010" />
     <property role="3GE5qa" value="Binary" />
@@ -3402,7 +3396,6 @@
   </node>
   <node concept="GDvyq" id="5Gn7HNu5ZnB">
     <property role="TrG5h" value="XOR" />
-    <property role="3GV8ww" value="10111001#11001010" />
     <property role="3aUW7m" value="XOR bit-wise operation between two binary numbers" />
     <property role="3aUW7j" value="10111001#11001010" />
     <property role="3GE5qa" value="Binary" />
@@ -3739,7 +3732,6 @@
   </node>
   <node concept="GDvyq" id="4yW9_lu2Rp0">
     <property role="TrG5h" value="Diff" />
-    <property role="3GV8ww" value="1111#11111" />
     <property role="3aUW7m" value="Finds the difference between two unary numbers. This is done by removing the smallest number from the largest, as such the final answer is on the side that contains the larger number" />
     <property role="3aUW7j" value="1111#1111" />
     <property role="3GE5qa" value="Unary" />
@@ -4200,7 +4192,6 @@
   </node>
   <node concept="GDvyq" id="4yW9_lu3Dm1">
     <property role="TrG5h" value="EqualCheck" />
-    <property role="3GV8ww" value="1111#111" />
     <property role="3aUW7m" value="checks if two unary numbers splitted by a blank(#) are equal by having the the head either  point at the blank in the middle to show they are equal, or at the first numer to show they are not." />
     <property role="3aUW7j" value="1111#111" />
     <property role="3GE5qa" value="Unary" />
@@ -4468,7 +4459,6 @@
   </node>
   <node concept="GDvyq" id="4yW9_lu2Rtf">
     <property role="TrG5h" value="GCD" />
-    <property role="3GV8ww" value="11111111#111111111111111111" />
     <property role="3aUW7m" value="Finds the greatest common divisor between two numbers in unary" />
     <property role="3aUW7j" value="111111#111111111111111111" />
     <property role="3GE5qa" value="Unary" />
@@ -4540,7 +4530,6 @@
   </node>
   <node concept="GDvyq" id="4yW9_lu2Oak">
     <property role="TrG5h" value="SortUnary" />
-    <property role="3GV8ww" value="####1111111#1111111111111###" />
     <property role="3aUW7m" value="Takes in two unary numbers(1's and blanks(#)) and moves the largest first and points at the first 1 in it. the two unary numbers must be split by a blank." />
     <property role="3aUW7j" value="#1111111#1111111111111#" />
     <property role="3GE5qa" value="Unary" />
@@ -4710,7 +4699,6 @@
   </node>
   <node concept="GDvy7" id="6qtZiK_wyq8">
     <property role="TrG5h" value="NOT" />
-    <property role="3GV8ww" value="10100110" />
     <property role="3GE5qa" value="Binary" />
     <property role="13vP$x" value="Inverts a binary number. The number can have blanks before or after" />
     <property role="13vP$z" value="10100110" />
@@ -4788,7 +4776,6 @@
     <property role="3GE5qa" value="Unary" />
     <property role="TrG5h" value="Copy" />
     <property role="13vP$x" value="Copies a unary number" />
-    <property role="3GV8ww" value="####111111" />
     <node concept="1MP3bn" id="6qtZiKA8kEP" role="1MPwcn">
       <property role="TrG5h" value="s1" />
       <node concept="1MP3a4" id="6qtZiKA8kEQ" role="1MP3bg">
@@ -5005,7 +4992,6 @@
     <property role="3aUW7m" value="bla" />
     <property role="3aUW7j" value="00" />
     <property role="TrG5h" value="test" />
-    <property role="3GV8ww" value="00" />
     <node concept="1MP3b9" id="5cwelSRy573" role="1MPwcr">
       <property role="TrG5h" value="start" />
       <node concept="1MPCsw" id="5cwelSRy57b" role="1MP3ba">
@@ -5394,7 +5380,6 @@
     <property role="TrG5h" value="PalindromeDetector" />
     <property role="3aUW7m" value="Detects if a given string is a palindrome" />
     <property role="3aUW7j" value="1001" />
-    <property role="3GV8ww" value="10001" />
     <node concept="1MP3b9" id="7tz465s9tLG" role="1MPwcr">
       <property role="TrG5h" value="FindStartOfString" />
       <node concept="1MPCsw" id="7tz465s9tLJ" role="1MP3ba">

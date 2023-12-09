@@ -873,7 +873,7 @@
         </node>
       </node>
       <node concept="2AHcQZ" id="2scu_sa$Enk" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Override" />
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
     <node concept="2tJIrI" id="50LahKyWvXI" role="jymVt" />
@@ -1256,7 +1256,7 @@
     </node>
     <node concept="13i0hz" id="1rM8DU5DoPV" role="13h7CS">
       <property role="TrG5h" value="getMachineName" />
-      <ref role="13i0hy" node="1rM8DU5Dmmo" resolve="GetMachineName" />
+      <ref role="13i0hy" node="1rM8DU5Dmmo" resolve="getMachineName" />
       <node concept="3clFbS" id="1rM8DU5DoPY" role="3clF47">
         <node concept="3cpWs6" id="1rM8DU5Dpl3" role="3cqZAp">
           <node concept="2OqwBi" id="1e4CQIsOD7J" role="3cqZAk">
@@ -1465,7 +1465,7 @@
     </node>
     <node concept="13i0hz" id="1rM8DU5DmZt" role="13h7CS">
       <property role="TrG5h" value="getMachineName" />
-      <ref role="13i0hy" node="1rM8DU5Dmmo" resolve="GetMachineName" />
+      <ref role="13i0hy" node="1rM8DU5Dmmo" resolve="getMachineName" />
       <node concept="3clFbS" id="1rM8DU5DmZw" role="3clF47">
         <node concept="3clFbF" id="1rM8DU5Dn$O" role="3cqZAp">
           <node concept="2OqwBi" id="1e4CQIsOFxI" role="3clFbG">

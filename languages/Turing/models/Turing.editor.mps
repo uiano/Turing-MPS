@@ -3247,7 +3247,7 @@
             <node concept="2ShNRf" id="2scu_saECz9" role="33vP2m">
               <node concept="1pGfFk" id="2scu_saECTr" role="2ShVmc">
                 <property role="373rjd" value="true" />
-                <ref role="37wK5l" to="fbzs:~Ellipse2D$Double.&lt;init&gt;(double,double,double,double)" resolve="Double" />
+                <ref role="37wK5l" to="fbzs:~Ellipse2D$Double.&lt;init&gt;(double,double,double,double)" resolve="Ellipse2D.Double" />
                 <node concept="2OqwBi" id="2scu_saFRpK" role="37wK5m">
                   <node concept="2xDkLB" id="2scu_saFQYw" role="2Oq$k0" />
                   <node concept="liA8E" id="2scu_saFRYj" role="2OqNvi">

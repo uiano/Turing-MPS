@@ -85,11 +85,6 @@
     <node concept="PrWs8" id="704drtsCsOD" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
-    <node concept="1TJgyi" id="3cdr9NvSuiW" role="1TKVEl">
-      <property role="IQ2nx" value="3678715891658384572" />
-      <property role="TrG5h" value="initial" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
   </node>
   <node concept="1TIwiD" id="704drtsCsOH">
     <property role="EcuMT" value="8071635493804166445" />
@@ -502,7 +497,7 @@
     <property role="EcuMT" value="3602874566398807266" />
     <property role="3GE5qa" value="combination_machine" />
     <property role="TrG5h" value="StartPointer" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="37ZYPhcvoNE">
     <property role="EcuMT" value="3602874566398807274" />
@@ -526,7 +521,7 @@
     <property role="EcuMT" value="5989850581224535204" />
     <property role="3GE5qa" value="Runtime Elements" />
     <property role="TrG5h" value="RT_GoTo" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="5cwelSRzzi_" role="PzmwI">
       <ref role="PrY4T" node="GkHW4YQ3h4" resolve="RuntimeElement" />
     </node>
@@ -541,7 +536,7 @@
     <property role="TrG5h" value="TestSuite" />
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="testing" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="7396NWV5qVL" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -563,7 +558,7 @@
     <property role="EcuMT" value="8127056960954937078" />
     <property role="3GE5qa" value="testing" />
     <property role="TrG5h" value="MachineTest" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="7396NWV5qVR" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
