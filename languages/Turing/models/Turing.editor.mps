@@ -37,7 +37,6 @@
       </concept>
       <concept id="1140524381322" name="jetbrains.mps.lang.editor.structure.CellModel_ListWithRole" flags="ng" index="2czfm3">
         <child id="1140524464360" name="cellLayout" index="2czzBx" />
-        <child id="1140524464359" name="emptyCellModel" index="2czzBI" />
       </concept>
       <concept id="1106270549637" name="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" flags="nn" index="2iRfu4" />
       <concept id="1106270571710" name="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" flags="nn" index="2iRkQZ" />
@@ -3353,73 +3352,6 @@
     </node>
     <node concept="2aJ2om" id="37ZYPhcwDRY" role="CpUAK">
       <ref role="2$4xQ3" node="4EOLWMLGhXS" resolve="graph" />
-    </node>
-  </node>
-  <node concept="24kQdi" id="60d_l_K$dLK">
-    <property role="3GE5qa" value="combination_machine" />
-    <ref role="1XX52x" to="uzpx:704drtsCsOH" resolve="CombinationMachine" />
-    <node concept="3EZMnI" id="60d_l_K$dNk" role="2wV5jI">
-      <node concept="3EZMnI" id="60d_l_K$dNu" role="3EZMnx">
-        <node concept="VPM3Z" id="60d_l_K$dNw" role="3F10Kt" />
-        <node concept="3F0ifn" id="60d_l_K$dNC" role="3EZMnx">
-          <property role="3F0ifm" value="Combination Machine" />
-        </node>
-        <node concept="3F0A7n" id="60d_l_K$dNI" role="3EZMnx">
-          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-        </node>
-        <node concept="2iRfu4" id="60d_l_K$dNz" role="2iSdaV" />
-      </node>
-      <node concept="3EZMnI" id="60d_l_K$dNT" role="3EZMnx">
-        <node concept="VPM3Z" id="60d_l_K$dNV" role="3F10Kt" />
-        <node concept="3F0ifn" id="60d_l_K$e1n" role="3EZMnx">
-          <property role="3F0ifm" value="Explanation" />
-        </node>
-        <node concept="3F0A7n" id="60d_l_K$e1x" role="3EZMnx">
-          <ref role="1NtTu8" to="uzpx:7j2XzPffffP" resolve="machineExplanation" />
-        </node>
-        <node concept="2iRfu4" id="60d_l_K$dNY" role="2iSdaV" />
-      </node>
-      <node concept="3EZMnI" id="60d_l_K$e1R" role="3EZMnx">
-        <node concept="VPM3Z" id="60d_l_K$e1T" role="3F10Kt" />
-        <node concept="3F0ifn" id="60d_l_K$e2b" role="3EZMnx">
-          <property role="3F0ifm" value="Example Tape:" />
-        </node>
-        <node concept="3F0A7n" id="60d_l_K$e2h" role="3EZMnx">
-          <ref role="1NtTu8" to="uzpx:7j2XzPflY$H" resolve="exampleTape" />
-        </node>
-        <node concept="2iRfu4" id="60d_l_K$e1W" role="2iSdaV" />
-      </node>
-      <node concept="3F1sOY" id="60d_l_K$e5b" role="3EZMnx">
-        <ref role="1NtTu8" to="uzpx:37ZYPhcvoN_" resolve="startpointer" />
-      </node>
-      <node concept="3EZMnI" id="60d_l_K$eaz" role="3EZMnx">
-        <node concept="VPM3Z" id="60d_l_K$ea_" role="3F10Kt" />
-        <node concept="3F0ifn" id="60d_l_K$eb8" role="3EZMnx">
-          <property role="3F0ifm" value="Initial GoTo" />
-        </node>
-        <node concept="3F1sOY" id="60d_l_K$ebe" role="3EZMnx">
-          <ref role="1NtTu8" to="uzpx:37ZYPhcvoWZ" resolve="gotoinit" />
-        </node>
-        <node concept="2iRfu4" id="60d_l_K$eaC" role="2iSdaV" />
-      </node>
-      <node concept="3F0ifn" id="60d_l_K$e5V" role="3EZMnx">
-        <property role="3F0ifm" value="States" />
-      </node>
-      <node concept="3F2HdR" id="60d_l_K$e2A" role="3EZMnx">
-        <ref role="1NtTu8" to="uzpx:50LahKyTMC7" resolve="states" />
-        <node concept="2iRkQZ" id="60d_l_K$e2D" role="2czzBx" />
-        <node concept="VPM3Z" id="60d_l_K$e2E" role="3F10Kt" />
-        <node concept="3F0ifn" id="60d_l_K$e6K" role="2czzBI" />
-      </node>
-      <node concept="3F0ifn" id="60d_l_K$e6M" role="3EZMnx">
-        <property role="3F0ifm" value="GoTos" />
-      </node>
-      <node concept="3F2HdR" id="60d_l_K$e3h" role="3EZMnx">
-        <ref role="1NtTu8" to="uzpx:5KV_RG$X7hd" resolve="gotos" />
-        <node concept="2iRkQZ" id="60d_l_K$e3k" role="2czzBx" />
-        <node concept="VPM3Z" id="60d_l_K$e3l" role="3F10Kt" />
-      </node>
-      <node concept="2iRkQZ" id="60d_l_K$dNn" role="2iSdaV" />
     </node>
   </node>
   <node concept="24kQdi" id="7396NWV5qW1">
