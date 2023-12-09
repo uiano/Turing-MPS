@@ -5778,7 +5778,16 @@
         <property role="3GOWYO" value="101" />
       </node>
       <node concept="3GOWYV" id="7396NWV6QNC" role="1bRbn4">
-        <property role="3GOWYO" value="010" />
+        <property role="3GOWYO" value="#010#" />
+      </node>
+    </node>
+    <node concept="1bRbn9" id="7396NWVnN2I" role="1bRbn1">
+      <property role="TrG5h" value="Inverts Input With Blank" />
+      <node concept="3GOWYV" id="7396NWVnN2J" role="1bRbn6">
+        <property role="3GOWYO" value="1#01" />
+      </node>
+      <node concept="3GOWYV" id="7396NWVnN2K" role="1bRbn4">
+        <property role="3GOWYO" value="#0#01" />
       </node>
     </node>
   </node>
