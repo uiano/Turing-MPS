@@ -538,6 +538,73 @@
             </node>
           </node>
         </node>
+        <node concept="3cpWs8" id="6d6P$i$VYTI" role="3cqZAp">
+          <node concept="3cpWsn" id="6d6P$i$VYTJ" role="3cpWs9">
+            <property role="TrG5h" value="cm" />
+            <node concept="3Tqbb2" id="6d6P$i$VYQW" role="1tU5fm">
+              <ref role="ehGHo" to="uzpx:704drtsCsOH" resolve="CombinationMachine" />
+            </node>
+            <node concept="2OqwBi" id="6d6P$i$VYTK" role="33vP2m">
+              <node concept="EsrRn" id="6d6P$i$VYTL" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="6d6P$i$VYTM" role="2OqNvi">
+                <node concept="1xMEDy" id="6d6P$i$VYTN" role="1xVPHs">
+                  <node concept="chp4Y" id="6d6P$i$VYTO" role="ri$Ld">
+                    <ref role="cht4Q" to="uzpx:704drtsCsOH" resolve="CombinationMachine" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="6d6P$i$VLjY" role="3cqZAp">
+          <node concept="3clFbS" id="6d6P$i$VLk0" role="3clFbx">
+            <node concept="3cpWs6" id="6d6P$i$W1w3" role="3cqZAp">
+              <node concept="3clFbT" id="6d6P$i$W1wk" role="3cqZAk" />
+            </node>
+          </node>
+          <node concept="22lmx$" id="6d6P$i$W1lP" role="3clFbw">
+            <node concept="3y3z36" id="6d6P$i$VW5m" role="3uHU7B">
+              <node concept="37vLTw" id="6d6P$i$VYTP" role="3uHU7B">
+                <ref role="3cqZAo" node="6d6P$i$VYTJ" resolve="cm" />
+              </node>
+              <node concept="2OqwBi" id="6d6P$i$VX1r" role="3uHU7w">
+                <node concept="2OqwBi" id="6d6P$i$VWts" role="2Oq$k0">
+                  <node concept="EsrRn" id="6d6P$i$VWj$" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="6d6P$i$VWAz" role="2OqNvi">
+                    <ref role="3Tt5mk" to="uzpx:5KV_RG$X7h6" resolve="to" />
+                  </node>
+                </node>
+                <node concept="2Xjw5R" id="6d6P$i$VYsC" role="2OqNvi">
+                  <node concept="1xMEDy" id="6d6P$i$VYsE" role="1xVPHs">
+                    <node concept="chp4Y" id="6d6P$i$VYLs" role="ri$Ld">
+                      <ref role="cht4Q" to="uzpx:704drtsCsOH" resolve="CombinationMachine" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3y3z36" id="6d6P$i$VZRF" role="3uHU7w">
+              <node concept="2OqwBi" id="6d6P$i$W0TD" role="3uHU7w">
+                <node concept="2OqwBi" id="6d6P$i$W0h0" role="2Oq$k0">
+                  <node concept="EsrRn" id="6d6P$i$W003" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="6d6P$i$W0GA" role="2OqNvi">
+                    <ref role="3Tt5mk" to="uzpx:5KV_RG$X7h4" resolve="from" />
+                  </node>
+                </node>
+                <node concept="2Xjw5R" id="6d6P$i$W14t" role="2OqNvi">
+                  <node concept="1xMEDy" id="6d6P$i$W14v" role="1xVPHs">
+                    <node concept="chp4Y" id="6d6P$i$W1db" role="ri$Ld">
+                      <ref role="cht4Q" to="uzpx:704drtsCsOH" resolve="CombinationMachine" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="37vLTw" id="6d6P$i$VZHn" role="3uHU7B">
+                <ref role="3cqZAo" node="6d6P$i$VYTJ" resolve="cm" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs6" id="1JRWyQho6CO" role="3cqZAp">
           <node concept="3clFbT" id="1JRWyQho6E4" role="3cqZAk">
             <property role="3clFbU" value="true" />
@@ -606,6 +673,12 @@
       <ref role="1N5Vy1" to="uzpx:37ZYPhcvoNG" resolve="to" />
       <node concept="1dDu$B" id="7j2XzPfuM9L" role="1N6uqs">
         <ref role="1dDu$A" to="uzpx:50LahKyThJl" resolve="Activity" />
+      </node>
+    </node>
+    <node concept="1N5Pfh" id="7j2XzPfwUdA" role="1Mr941">
+      <ref role="1N5Vy1" to="uzpx:37ZYPhcvoNF" resolve="from" />
+      <node concept="1dDu$B" id="7j2XzPfwUgH" role="1N6uqs">
+        <ref role="1dDu$A" to="uzpx:37ZYPhcvoNy" resolve="StartPointer" />
       </node>
     </node>
   </node>
