@@ -102,6 +102,9 @@
       <concept id="1147468365020" name="jetbrains.mps.lang.constraints.structure.ConstraintsFunctionParameter_node" flags="nn" index="EsrRn" />
       <concept id="1212096972063" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_PropertyValidator" flags="in" index="QB0g5" />
       <concept id="5564765827938091039" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_ReferentSearchScope_Scope" flags="ig" index="3dgokm" />
+      <concept id="8401916545537438642" name="jetbrains.mps.lang.constraints.structure.InheritedNodeScopeFactory" flags="ng" index="1dDu$B">
+        <reference id="8401916545537438643" name="kind" index="1dDu$A" />
+      </concept>
       <concept id="1213093968558" name="jetbrains.mps.lang.constraints.structure.ConceptConstraints" flags="ng" index="1M2fIO">
         <reference id="1213093996982" name="concept" index="1M2myG" />
         <child id="6702802731807532712" name="canBeParent" index="9SGkU" />
@@ -372,6 +375,18 @@
   <node concept="1M2fIO" id="1JRWyQhnSoo">
     <property role="3GE5qa" value="combination_machine" />
     <ref role="1M2myG" to="uzpx:5KV_RG$X7h3" resolve="GoTo" />
+    <node concept="1N5Pfh" id="7j2XzPfu_MX" role="1Mr941">
+      <ref role="1N5Vy1" to="uzpx:5KV_RG$X7h4" resolve="from" />
+      <node concept="1dDu$B" id="7j2XzPfuA3Z" role="1N6uqs">
+        <ref role="1dDu$A" to="uzpx:50LahKyThJl" resolve="Activity" />
+      </node>
+    </node>
+    <node concept="1N5Pfh" id="7j2XzPfuAat" role="1Mr941">
+      <ref role="1N5Vy1" to="uzpx:5KV_RG$X7h6" resolve="to" />
+      <node concept="1dDu$B" id="7j2XzPfuB8c" role="1N6uqs">
+        <ref role="1dDu$A" to="uzpx:50LahKyThJl" resolve="Activity" />
+      </node>
+    </node>
     <node concept="9S07l" id="1JRWyQho3iy" role="9Vyp8">
       <node concept="3clFbS" id="1JRWyQho3iz" role="2VODD2">
         <node concept="3cpWs8" id="4EOLWMLIcSt" role="3cqZAp">
@@ -581,6 +596,16 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="7j2XzPfuM7G">
+    <property role="3GE5qa" value="combination_machine" />
+    <ref role="1M2myG" to="uzpx:37ZYPhcvoNE" resolve="GoToInit" />
+    <node concept="1N5Pfh" id="7j2XzPfuM7H" role="1Mr941">
+      <ref role="1N5Vy1" to="uzpx:37ZYPhcvoNG" resolve="to" />
+      <node concept="1dDu$B" id="7j2XzPfuM9L" role="1N6uqs">
+        <ref role="1dDu$A" to="uzpx:50LahKyThJl" resolve="Activity" />
       </node>
     </node>
   </node>

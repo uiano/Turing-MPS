@@ -145,6 +145,9 @@
         </node>
       </node>
     </node>
+    <node concept="PrWs8" id="7j2XzPfuBbj" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
   </node>
   <node concept="1TIwiD" id="704drtsCsOK">
     <property role="EcuMT" value="8071635493804166448" />
