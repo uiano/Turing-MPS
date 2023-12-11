@@ -13005,7 +13005,7 @@
     <property role="V_hWg" value="111#001" />
     <property role="3GE5qa" value="Binary" />
     <node concept="1MP3b9" id="5ffTQiQf5DF" role="1MPwcr">
-      <property role="TrG5h" value="A1" />
+      <property role="TrG5h" value="init" />
       <node concept="1MPCsw" id="5ffTQiQf5H6" role="1MP3ba">
         <ref role="1MPCsx" to="ninq:6qtZiK_U4aw" resolve="FindEndOfStringRight" />
       </node>
@@ -13450,7 +13450,7 @@
         <node concept="gqqVs" id="5ffTQiQf6r5" role="37mO4d">
           <property role="gqqTZ" value="983.1884057971015" />
           <property role="gqqTW" value="467.49999999999994" />
-          <property role="gqqTX" value="116.0" />
+          <property role="gqqTX" value="124.0" />
           <property role="gqqTy" value="75.0" />
           <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
         </node>
@@ -13598,7 +13598,7 @@
         <node concept="gqqVs" id="5ffTQiQf6Tf" role="37mO4d">
           <property role="gqqTZ" value="1215.4057971014495" />
           <property role="gqqTW" value="435.99999999999994" />
-          <property role="gqqTX" value="164.0" />
+          <property role="gqqTX" value="180.0" />
           <property role="gqqTy" value="138.0" />
           <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
         </node>
@@ -13987,7 +13987,7 @@
       <ref role="1XwBuS" node="5ffTQiQf5DF" />
     </node>
     <node concept="1MP3b9" id="5ffTQiQf5Ex" role="1MPwcr">
-      <property role="TrG5h" value="A2" />
+      <property role="TrG5h" value="ReadValue" />
       <node concept="1MPCsw" id="7bxHkLxEqyj" role="1MP3ba">
         <ref role="1MPCsx" to="ninq:6qtZiK_SBSM" resolve="right" />
       </node>
@@ -14043,7 +14043,7 @@
       <ref role="1SNYcX" node="5ffTQiQf5Lp" resolve="EndFalse1" />
     </node>
     <node concept="1MP3b9" id="5ffTQiQf671" role="1MPwcr">
-      <property role="TrG5h" value="A10" />
+      <property role="TrG5h" value="IfValue0" />
       <node concept="1MPCsw" id="5ffTQiQf6aJ" role="1MP3ba">
         <ref role="1MPCsx" to="ninq:6qtZiK_U3X8" resolve="blank" />
       </node>
@@ -14093,7 +14093,7 @@
       <ref role="1SNYcX" node="5ffTQiQf6jk" resolve="endFalse2" />
     </node>
     <node concept="1MP3b9" id="5ffTQiQf6qA" role="1MPwcr">
-      <property role="TrG5h" value="A12" />
+      <property role="TrG5h" value="ReadNextString" />
       <node concept="1MPCsw" id="5ffTQiQf6t4" role="1MP3ba">
         <ref role="1MPCsx" to="ninq:6qtZiK_SBSM" resolve="right" />
       </node>
@@ -14149,7 +14149,7 @@
       <ref role="1SNYcX" node="5ffTQiQf6Mf" />
     </node>
     <node concept="1MP3b9" id="5ffTQiQf6SA" role="1MPwcr">
-      <property role="TrG5h" value="FindNext" />
+      <property role="TrG5h" value="MoveToLeftOfNextString" />
       <node concept="1MPCsw" id="5ffTQiQf72K" role="1MP3ba">
         <ref role="1MPCsx" to="ninq:6qtZiK_U48A" resolve="FindEndOfStringLeft" />
       </node>
@@ -14195,7 +14195,7 @@
       <ref role="1SNYcX" node="5ffTQiQf7ag" resolve="endOfFirstString2" />
     </node>
     <node concept="1MP3b9" id="5ffTQiQf7hU" role="1MPwcr">
-      <property role="TrG5h" value="A11" />
+      <property role="TrG5h" value="IfValueOne" />
       <node concept="1MPCsw" id="5ffTQiQf7pP" role="1MP3ba">
         <ref role="1MPCsx" to="ninq:6qtZiK_U3X8" resolve="blank" />
       </node>
