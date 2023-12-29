@@ -1,10 +1,15 @@
 To find previous version of the project check out previous git commit 7057918 at https://github.com/uiano/Turing-MPS/tree/7057918668c638cb601b38626c2b101a8d69de44
+# Prerequisites
+The following plugins are necessary for the language to be used.
+
+* de.itemis.mps.editor.diagram for the diagram view of the combination machine. Plugin link:https://plugins.jetbrains.com/plugin/13240-de-itemis-mps-editor-diagram
+* com.mbeddr.mpsutil.editor.querylist. Plugin link: https://plugins.jetbrains.com/plugin/17128-com-mbeddr-mpsutil-editor-querylist
+
 # User Manual for the Turing Language
 You create Turing machines within a model.
 The Turing machines runs from the drop down menu when `right-clicking` a machine, and clicking `Run Machine`.
 It will show an input box where you can fill in tape input and run the Turing Machine.
-Alternatively, it runs from within a machine specification.
-In a machine specification you define tape input and run the combination machine by clicking `Run`.
+In the dropdown menu the debug is run by clicking `Debug Machine` and the test suite is run by clicking `Run Test Suite`.
 
 ## Creation of Turing Machines
 You create a Turing machine specification within a model.
@@ -14,6 +19,11 @@ You write machine specifications by typing characters, using <kbd>Ctrl</kbd>+<kb
 
 To access properties of any model or solution use <kbd>Alt</kbd>+<kbd>Enter</kbd>.
 You can also access `properties` at the bottom of the drop down menu when `right-clicking` a model or solution.
+
+The combination machine may show a textual view. To convert this to a diagrammatic view `right-click` inside the window where the specifications are written. 
+Then click on `Push-editor-hints`. 
+After that click on `Use custom hints` and tick the `graph` box under Turing, then click `OK`.
+New Activites are added by `drag-and-drop` and are found in the `Diagram Palette` normally seen in the horizontal right hand bar in mps.
 
 ## Turing Language Syntax
 There are two types of turing machines implemented in the language.
