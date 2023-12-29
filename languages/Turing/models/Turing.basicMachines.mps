@@ -18,12 +18,11 @@
     </language>
     <language id="74e24c20-e15c-4f10-9922-01e07905d877" name="Turing">
       <concept id="8071635493804166448" name="Turing.structure.TableMachine" flags="ng" index="GDvy7">
-        <property id="7394344529268220941" name="machineExplanation" index="13vP$x" />
-        <property id="7394344529268220943" name="exampleTape" index="13vP$z" />
         <child id="5778444997714455051" name="states" index="1MPwcn" />
       </concept>
       <concept id="8071635493804166440" name="Turing.structure.Machine" flags="ng" index="GDvyv">
-        <property id="3678715891658384572" name="initial" index="3GV8ww" />
+        <property id="8413557797066107181" name="exampleTape" index="V_hWg" />
+        <property id="8413557797064340469" name="machineExplanation" index="VZwn8" />
       </concept>
       <concept id="7394344529261010718" name="Turing.structure.TableGoto" flags="ng" index="13Um8M">
         <reference id="7394344529261010719" name="next" index="13Um8N" />
@@ -48,9 +47,8 @@
   </registry>
   <node concept="GDvy7" id="6qtZiK_SBSM">
     <property role="TrG5h" value="right" />
-    <property role="13vP$x" value="Moves one space to the right" />
-    <property role="3GV8ww" value="101010" />
     <property role="3GE5qa" value="singleOperations" />
+    <property role="VZwn8" value="Moves one space to the right" />
     <node concept="1MP3bn" id="6qtZiKA8kdY" role="1MPwcn">
       <property role="TrG5h" value="s1" />
       <node concept="1MP3a4" id="6qtZiKA8kdZ" role="1MP3bg">
@@ -80,10 +78,9 @@
     </node>
   </node>
   <node concept="GDvy7" id="6qtZiK_U3Sy">
-    <property role="13vP$x" value="Moves one space to the left" />
     <property role="TrG5h" value="left" />
-    <property role="3GV8ww" value="11010" />
     <property role="3GE5qa" value="singleOperations" />
+    <property role="VZwn8" value="Moves one space to the left" />
     <node concept="1MP3bn" id="6qtZiKA8kcG" role="1MPwcn">
       <property role="TrG5h" value="s1" />
       <node concept="1MP3a4" id="6qtZiKA8kcH" role="1MP3bg">
@@ -113,10 +110,9 @@
     </node>
   </node>
   <node concept="GDvy7" id="6qtZiK_U3U4">
-    <property role="13vP$x" value="Writes one" />
     <property role="TrG5h" value="one" />
-    <property role="3GV8ww" value="000" />
     <property role="3GE5qa" value="singleOperations" />
+    <property role="VZwn8" value="Writes one" />
     <node concept="1MP3bn" id="6qtZiKA8kdl" role="1MPwcn">
       <property role="TrG5h" value="s1" />
       <node concept="1MP3a4" id="6qtZiKA8kdm" role="1MP3bg">
@@ -146,10 +142,9 @@
     </node>
   </node>
   <node concept="GDvy7" id="6qtZiK_U3VA">
-    <property role="13vP$x" value="Writes zero" />
     <property role="TrG5h" value="zero" />
-    <property role="3GV8ww" value="1111" />
     <property role="3GE5qa" value="singleOperations" />
+    <property role="VZwn8" value="Writes zero" />
     <node concept="1MP3bn" id="6qtZiKA8keB" role="1MPwcn">
       <property role="TrG5h" value="s1" />
       <node concept="1MP3a4" id="6qtZiKA8keC" role="1MP3bg">
@@ -179,10 +174,9 @@
     </node>
   </node>
   <node concept="GDvy7" id="6qtZiK_U3X8">
-    <property role="13vP$x" value="Write blank" />
     <property role="TrG5h" value="blank" />
-    <property role="3GV8ww" value="11010" />
     <property role="3GE5qa" value="singleOperations" />
+    <property role="VZwn8" value="Write blank" />
     <node concept="1MP3bn" id="6qtZiKA8kc3" role="1MPwcn">
       <property role="TrG5h" value="s1" />
       <node concept="1MP3a4" id="6qtZiKA8kc4" role="1MP3bg">
@@ -212,10 +206,9 @@
     </node>
   </node>
   <node concept="GDvy7" id="6qtZiK_U3YS">
-    <property role="13vP$x" value="Finds the nearest 0 on the right of the current position" />
     <property role="TrG5h" value="Find0Right" />
-    <property role="13vP$z" value="1" />
-    <property role="3GV8ww" value="11#11###0" />
+    <property role="VZwn8" value="Finds the nearest 0 on the right of the current position" />
+    <property role="V_hWg" value="1" />
     <node concept="1MP3bn" id="6qtZiKA8kgt" role="1MPwcn">
       <property role="TrG5h" value="s1" />
       <node concept="1MP3a4" id="6qtZiKA8kgu" role="1MP3bg">
@@ -251,9 +244,8 @@
     </node>
   </node>
   <node concept="GDvy7" id="6qtZiK_U40M">
-    <property role="13vP$x" value="Finds the nearest 0 to the left of the current position" />
     <property role="TrG5h" value="Find0Left" />
-    <property role="3GV8ww" value="00101" />
+    <property role="VZwn8" value="Finds the nearest 0 to the left of the current position" />
     <node concept="1MP3bn" id="6qtZiKA8kfg" role="1MPwcn">
       <property role="TrG5h" value="s1" />
       <node concept="1MP3a4" id="6qtZiKA8kfh" role="1MP3bg">
@@ -289,9 +281,8 @@
     </node>
   </node>
   <node concept="GDvy7" id="6qtZiK_U44M">
-    <property role="13vP$x" value="Finds the nearest 1 on the left of the current position" />
     <property role="TrG5h" value="Find1Left" />
-    <property role="3GV8ww" value="101010" />
+    <property role="VZwn8" value="Finds the nearest 1 on the left of the current position" />
     <node concept="1MP3bn" id="6qtZiKA8khE" role="1MPwcn">
       <property role="TrG5h" value="s1" />
       <node concept="1MP3a4" id="6qtZiKA8khF" role="1MP3bg">
@@ -327,9 +318,8 @@
     </node>
   </node>
   <node concept="GDvy7" id="6qtZiK_U46G">
-    <property role="13vP$x" value="Finds the nearest 1 on the right of the current position" />
     <property role="TrG5h" value="Find1Right" />
-    <property role="3GV8ww" value="0001010" />
+    <property role="VZwn8" value="Finds the nearest 1 on the right of the current position" />
     <node concept="1MP3bn" id="6qtZiKA8kiR" role="1MPwcn">
       <property role="TrG5h" value="s1" />
       <node concept="1MP3a4" id="6qtZiKA8kiS" role="1MP3bg">
@@ -365,9 +355,8 @@
     </node>
   </node>
   <node concept="GDvy7" id="6qtZiK_U48A">
-    <property role="13vP$x" value="Searches through the tape to the left until finding a #, then going one step to the right." />
     <property role="TrG5h" value="FindEndOfStringLeft" />
-    <property role="3GV8ww" value="100101010" />
+    <property role="VZwn8" value="Searches through the tape to the left until finding a #, then going one step to the right." />
     <node concept="1MP3bn" id="6qtZiKA8kk4" role="1MPwcn">
       <property role="TrG5h" value="s1" />
       <node concept="1MP3a4" id="6qtZiKA8kk5" role="1MP3bg">
@@ -403,9 +392,8 @@
     </node>
   </node>
   <node concept="GDvy7" id="6qtZiK_U4aw">
-    <property role="13vP$x" value="Searches through the tape to the right until finding a #, then going one step to the left." />
     <property role="TrG5h" value="FindEndOfStringRight" />
-    <property role="3GV8ww" value="101010110" />
+    <property role="VZwn8" value="Searches through the tape to the right until finding a #, then going one step to the left." />
     <node concept="1MP3bn" id="6qtZiKA8kpZ" role="1MPwcn">
       <property role="TrG5h" value="s1" />
       <node concept="1MP3a4" id="6qtZiKA8kq0" role="1MP3bg">
@@ -441,9 +429,8 @@
     </node>
   </node>
   <node concept="GDvy7" id="6qtZiK_U4cq">
-    <property role="13vP$x" value="Searches through blanks to the left until it finds a 1 or 0." />
     <property role="TrG5h" value="FindStringLeft" />
-    <property role="3GV8ww" value="101010" />
+    <property role="VZwn8" value="Searches through blanks to the left until it finds a 1 or 0." />
     <node concept="1MP3bn" id="6qtZiKA8kvO" role="1MPwcn">
       <property role="TrG5h" value="s1" />
       <node concept="1MP3a4" id="6qtZiKA8kvP" role="1MP3bg">
@@ -476,9 +463,8 @@
     </node>
   </node>
   <node concept="GDvy7" id="6qtZiK_U4e8">
-    <property role="13vP$x" value="Searches through blanks to the right until it finds a 1 or 0." />
     <property role="TrG5h" value="FindStringRight" />
-    <property role="3GV8ww" value="###10101" />
+    <property role="VZwn8" value="Searches through blanks to the right until it finds a 1 or 0." />
     <node concept="1MP3bn" id="6qtZiKA8kwJ" role="1MPwcn">
       <property role="TrG5h" value="s1" />
       <node concept="1MP3a4" id="6qtZiKA8kwK" role="1MP3bg">
@@ -512,9 +498,8 @@
   </node>
   <node concept="GDvy7" id="6qtZiK_W5Qj">
     <property role="TrG5h" value="RemoveLeadingZeros" />
-    <property role="13vP$x" value="Fills in # for all zeroes before a 1, useful for binary operations." />
-    <property role="13vP$z" value="00001001" />
-    <property role="3GV8ww" value="00001001" />
+    <property role="VZwn8" value="Fills in # for all zeroes before a 1, useful for binary operations." />
+    <property role="V_hWg" value="00001001" />
     <node concept="1MP3bn" id="6qtZiKA8kxE" role="1MPwcn">
       <property role="TrG5h" value="s1" />
       <node concept="1MP3a4" id="6qtZiKA8kxF" role="1MP3bg">
@@ -551,7 +536,7 @@
   </node>
   <node concept="GDvy7" id="6qtZiK_W7tM">
     <property role="TrG5h" value="FindEndOfStringLeftUnary" />
-    <property role="13vP$x" value="Finds the end of the string in a unary number" />
+    <property role="VZwn8" value="Finds the end of the string in a unary number" />
     <node concept="1MP3bn" id="6qtZiKA8klA" role="1MPwcn">
       <property role="TrG5h" value="s1" />
       <node concept="1MP3a4" id="6qtZiKA8klB" role="1MP3bg">
@@ -621,7 +606,7 @@
   </node>
   <node concept="GDvy7" id="6qtZiK_W7wL">
     <property role="TrG5h" value="FindEndOfStringRightUnary" />
-    <property role="13vP$x" value="Finds the end of the string in a unary number" />
+    <property role="VZwn8" value="Finds the end of the string in a unary number" />
     <node concept="1MP3bn" id="6qtZiKA8krx" role="1MPwcn">
       <property role="TrG5h" value="s1" />
       <node concept="1MP3a4" id="6qtZiKA8kry" role="1MP3bg">
