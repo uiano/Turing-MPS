@@ -4,7 +4,6 @@ This project implements a simple Turing language in MPS. It is used to teach all
 # Documentation
 There is a [manual](Documentation/manual.md) in the documentation folder together with
 an explanation of the [Turing language description](Documentation/language.md) in MPS.
-Moreover, a list of current [TODO items](Documentation/TODO.md) is also there.
 
 # Installation
 Clone the repository to your machine. Then open a Turing Machine version in MPS and follow the building steps below. 
