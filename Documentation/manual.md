@@ -49,7 +49,7 @@ and such basic machines are therefore included in the language itself.
 Like the table machine the combination machine also contains states which are named activities, and it also
 has transitions that point to the next activity. Similarly to the table machine if there are no new transitions to another activity, the combination machine is finished.
 The combination machine activities can contain a set of table machines that can be run, but an activity can also be empty and not contain any table machines.
-The valid characters for transition between activities are '0', '1', '#' and '*'. Any, '*', will run regardless of the current input from the tape, but will only run if no other outgoing edges have a valid condition.
+The valid characters for transition between activities are 0, 1, # and *. Any, *, will run regardless of the current input from the tape, but will only run if no other outgoing edges have a valid condition.
 
 Examples can be found in the turing playground.
 Most of these examples are combination machines.
