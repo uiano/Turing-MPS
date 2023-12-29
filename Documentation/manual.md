@@ -1,9 +1,4 @@
 To find previous version of the project check out previous git commit 7057918 at https://github.com/uiano/Turing-MPS/tree/7057918668c638cb601b38626c2b101a8d69de44
-# Prerequisites
-The following plugins are necessary for the language to be used.
-
-* de.itemis.mps.editor.diagram for the diagram view of the combination machine. Plugin link:https://plugins.jetbrains.com/plugin/13240-de-itemis-mps-editor-diagram
-* com.mbeddr.mpsutil.editor.querylist. Plugin link: https://plugins.jetbrains.com/plugin/17128-com-mbeddr-mpsutil-editor-querylist
 
 # User Manual for the Turing Language
 You create Turing machines within a model.
