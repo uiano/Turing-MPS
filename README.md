@@ -16,3 +16,6 @@ The following plugins must be installed for the language to be used.
 
 # Building
 1. Right-click on the language and select `Rebuild language`. In order to update dependencies you should accept migrations.
+
+# TODO
+TODOs can be found in "issues" tab for the repository on github.
