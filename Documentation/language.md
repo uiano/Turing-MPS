@@ -38,14 +38,19 @@ In the combination machine it has a runtime concept for GoTo, Activity and Combi
 The GoTo runtime element is different in that it references 0 or 1 activities, rather than a corresponding goto concept.
 
 ### Test Suite
-The test suite has two concepts, the MachineTest concept which contains an input and and expected output, and a TestSuite concept which references a machine (combination or table) and contains multiple Machinetests.
+The test suite has two concepts, the MachineTest concept which contains an input and and expected output, and a TestSuite concept which is the root concept and references a machine (combination or table) and contains multiple Machinetests.
 
 
 ## Constraints
-The constraints are the same for both machines.
-Firstly the initial string of the machines is set so it can only contain legal values.
-Secondly the states of a machine must all have unique names.
-Finally the goto concepts are constrained so that they can only point to states of the same machine.
+
+### Table Machine
+There is a referent constraint to ensure that the next state that they go to is within the same table machine.
+There is also a constraint to ensure the uniqueness of state names.
+
+### Combination Machine
+The combination machine has a constraint that ensures that there is an initial and a final state.
+There is a referent constraint to ensure that the activities that there are edges between are from the same combination machine.
+There is also a constraint to ensure that there is only one outgoing edge from an activity to another, and that the conditions for each outgoing edge from an activity is unique.
 
 ## Editor (Syntax)
 ### Table Machine
@@ -58,9 +63,17 @@ When each of these elements are fetched language refers to their individual edit
 The first row of the table fetches HeaderStrings and assigns the relevant values.
 
 ### Combination Machine
-Compared to the table machine the editor for the combination machine is relatively simple.
-Each machine contains the states which each contain the operations.
-Each type of operation has slightly different editors, with the Conditional_Editor being the most different from the other two as it contains three children, one for each of the possible input values.
+The combination machine editor uses the plugins [de.itemis.mps.editor.diagram](https://plugins.jetbrains.com/plugin/13240-de-itemis-mps-editor-diagram) and [com.mbeddr.mpsutil.editor.querylist](https://plugins.jetbrains.com/plugin/17128-com-mbeddr-mpsutil-editor-querylist) for its diagrammatic view. 
+It has connection creators to define the edges between activities and from the start pointer.
+It is also defined to have a start pointer and activities in the palette, so that it can be added to the diagram view.
+The GoTo_graph editor is made to represent an edge and uses the from activity in the goto concept for the from node and to activity in the goto concept for the to node. For the to node there is a drawn arrow that points to the to node to indicate the direction of the graph.
+The activity is shaped as a box, with the name of the activity and the machines that it runs. The activity is set to delete edges to and from it when deleted.
+The RunMachine Editor is defined to be orange so that the machines an activity runs are easily discernible.
+
+### Test Suite
+The TestSuite editor defines a layout where the user can give the test a name and define which machine is being tested. It also defines a column where the tests are added.
+The MachineTest editor for each test has an input field and an expected output field.
+The name of a test is color coded as green.
 
 ### Cell key map
 Cell key maps are custom keybindings for a node.
