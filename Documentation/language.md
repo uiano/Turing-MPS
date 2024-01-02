@@ -25,14 +25,21 @@ The table machine also uses a separate concept called HeaderString.
 This is used to create headers for the tables.
 
 ### Combination Machine
-The CombinationMachine and CombinationState are pretty similar to the table machine equivalents, but with CombinationState having one list of operations rather than three individual ones.
-The differences start with the CombinationOperation.
-The combination machine does not contain write or move, but it does contain a Conditional concept, a goto concept and a RunMachine concept.
-The Conditional concept is essentially the read functionality that also exists in the table machine, but unlike the table machine it is optional.
-Also unlike the table machine each element of the conditional concept is a list of operations rather than a single operation.
-The RunMachine concept contains a reference to a machine and is what allows the combination machine to run different machines.
-The Goto concept works the same way as the table machine equivalent.
-Unlike the table machine these concepts extend the CombinationOperation concept rather than being children of it.
+The CombinationMachine concept is similar to the table machine equivalent. It contains Activities and the edges between the activities as well as a start pointer and an edge to first activity.
+The combination machine has an activity concept. Each activity contains zero or more table machine references that it runs. The activities are connected with GoTo concepts which has a condition property. 
+This condition determines which activity is next, and bases it on which value is read at the head of the tape. The goto concept references a from activity and a to activity to keep track of the relevant activities.
+The combination machine also has a start pointer which is similar to the activity except it does not run any machine references, and a gotoInit concept which is similar to the GoTo except the from activity is replaced with the start pointer.
+The RunMachine concept references exactly one table machine, which allows the combination machine to run different machines.
+
+### Runtime Elements
+The runtime elements are corresponding concepts to the combination machine and table machine and will reference exactly one of its corresponding concept.
+In the table machine it has a runtime concept for TableState and TableMachine.
+In the combination machine it has a runtime concept for GoTo, Activity and CombinationMachine.
+The GoTo runtime element is different in that it references 0 or 1 activities, rather than a corresponding goto concept.
+
+### Test Suite
+The test suite has two concepts, the MachineTest concept which contains an input and and expected output, and a TestSuite concept which references a machine (combination or table) and contains multiple Machinetests.
+
 
 ## Constraints
 The constraints are the same for both machines.
