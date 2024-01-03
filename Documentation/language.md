@@ -108,6 +108,7 @@ The language uses action elements found in the plugin model to run debugging, te
 The Turing language is executed and run in MPS. The language concepts like move or write have behavior aspects.
 These behavior aspects contain Baselanguage code that executes the Turing language operations as baseLanguage.
 The activities or states that are pushed onto a stack are popped off the stack and executed when running the machine.
-A string created in BaseLanguage represents the tape.
+A string created in BaseLanguage represents the tape. 
+The machine will run until there are no new states/activities it can transition to. 
 This string is manipulated by the operations of the Turing machine, and after the machine is complete, the result is the manipulated string.
 The result string is displayed in a pop up.
