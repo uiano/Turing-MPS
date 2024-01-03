@@ -18,4 +18,4 @@ The following plugins must be installed for the language to be used.
 1. Right-click on the language and select `Rebuild language`. In order to update dependencies you should accept migrations.
 
 # TODO
-TODOs can be found in "issues" tab for the repository on github.
+TODOs can be found in [Issues](https://github.com/uiano/Turing-MPS/issues) for the repository on github.
