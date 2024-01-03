@@ -101,7 +101,7 @@ The typesystem have to checks, Check_Activity which checks if an activities name
 ## Runtime
 The runtime components of the language are:
 - Tape with head/scanner position.
-- The stack of runtime elements (states, activities, edges, machines).
+- The stack of runtime elements (states, activities, transitions, machines).
 
 The language uses action elements found in the plugin model to run debugging, testing and regular run. In here the messages output to the user is defined and it runs the activities and states that are put on the stack.
 
