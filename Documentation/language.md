@@ -96,7 +96,7 @@ The RT_CombinationMachine_Behavior also has a method that allows it to find the 
 There is also the Activity_behavior which can return outgoing edges, incoming edges, adjacent activities and whether the activity is the initial activity.
 Finally, there is a CombinationMachine_behavior which can return the role scope of the activities and the start pointer.
 ### Typesystem
-The typesystem have to checks, Check_Activity which checks if an activities name is unique and if it is connected to another activity, and Check_CombinationMachine to check if the start pointer is attached to an activity.
+The typesystem have the checks Check_Activity which checks if an activities name is unique and if it is connected to another activity, and Check_CombinationMachine to check if the start pointer is attached to an activity.
 
 ## Runtime
 The runtime components of the language are:

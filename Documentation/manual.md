@@ -18,8 +18,8 @@ You can also access `properties` at the bottom of the drop down menu when `right
 The combination machine may show a textual view. To convert this to a diagrammatic view `right-click` inside the window where the specifications are written. 
 Then click on `Push-editor-hints`. 
 After that click on `Use custom hints` and tick the `graph` box under Turing, then click `OK`.
-New Activites are added by `drag-and-drop` and are found in the `Diagram Palette` normally seen in the horizontal right hand bar in mps.
-In each activity table machines can be added. To create edges between activites `click` on an activity and then click on one of the `bottom right` icons and `drag` it to another activity.
+New Activities are added by `drag-and-drop` and are found in the `Diagram Palette` normally seen in the horizontal right hand bar in mps.
+In each activity table machines can be added. To create edges between activities `click` on an activity and then click on one of the `bottom right` icons and `drag` it to another activity.
 Finally, add a condition for the edge by typing a valid character. 
 
 ## Turing Language Syntax
