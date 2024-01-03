@@ -1,10 +1,10 @@
 To find previous version of the project check out previous git commit 7057918 at https://github.com/uiano/Turing-MPS/tree/7057918668c638cb601b38626c2b101a8d69de44
+
 # User Manual for the Turing Language
 You create Turing machines within a model.
 The Turing machines runs from the drop down menu when `right-clicking` a machine, and clicking `Run Machine`.
 It will show an input box where you can fill in tape input and run the Turing Machine.
-Alternatively, it runs from within a machine specification.
-In a machine specification you define tape input and run the combination machine by clicking `Run`.
+In the dropdown menu the debug is run by clicking `Debug Machine` and the test suite is run by clicking `Run Test Suite`.
 
 ## Creation of Turing Machines
 You create a Turing machine specification within a model.
@@ -14,6 +14,13 @@ You write machine specifications by typing characters, using <kbd>Ctrl</kbd>+<kb
 
 To access properties of any model or solution use <kbd>Alt</kbd>+<kbd>Enter</kbd>.
 You can also access `properties` at the bottom of the drop down menu when `right-clicking` a model or solution.
+
+The combination machine may show a textual view. To convert this to a diagrammatic view `right-click` inside the window where the specifications are written. 
+Then click on `Push-editor-hints`. 
+After that click on `Use custom hints` and tick the `graph` box under Turing, then click `OK`.
+New Activities are added by `drag-and-drop` and are found in the `Diagram Palette` normally seen in the horizontal right hand bar in mps.
+In each activity table machines can be added. To create edges between activities `click` on an activity and then click on one of the `bottom right` icons and `drag` it to another activity.
+Finally, add a condition for the edge by typing a valid character. 
 
 ## Turing Language Syntax
 There are two types of turing machines implemented in the language.
@@ -34,10 +41,10 @@ The combination machine operates at a slightly higher level. It is not able to d
 however it is able to run other machines, both table machines and combination machines.
 This means that to do such basic operations the combination machine requires very simply table machines, 
 and such basic machines are therefore included in the language itself.
-Like the table machine the combination machine also contains states, and it also
-has goto transitions that point to the next state. Similarly to the table machine if these transitions are empty the machine ends.
-The combination machine states also contain operations based on different inputs, but unlike the table machine these are optional,
-it is possible for a state to not contain a read function.
+Like the table machine the combination machine also contains states which are named activities, and it also
+has transitions that point to the next activity. Similarly to the table machine if there are no new transitions to another activity, the combination machine is finished.
+The combination machine activities can contain a set of table machines that can be run, but an activity can also be empty and not contain any table machines.
+The valid characters for transition between activities are 0, 1, # and *. Any, *, will run regardless of the current input from the tape, but will only run if no other outgoing edges have a valid condition.
 
 Examples can be found in the turing playground.
 Most of these examples are combination machines.

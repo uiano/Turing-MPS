@@ -25,20 +25,32 @@ The table machine also uses a separate concept called HeaderString.
 This is used to create headers for the tables.
 
 ### Combination Machine
-The CombinationMachine and CombinationState are pretty similar to the table machine equivalents, but with CombinationState having one list of operations rather than three individual ones.
-The differences start with the CombinationOperation.
-The combination machine does not contain write or move, but it does contain a Conditional concept, a goto concept and a RunMachine concept.
-The Conditional concept is essentially the read functionality that also exists in the table machine, but unlike the table machine it is optional.
-Also unlike the table machine each element of the conditional concept is a list of operations rather than a single operation.
-The RunMachine concept contains a reference to a machine and is what allows the combination machine to run different machines.
-The Goto concept works the same way as the table machine equivalent.
-Unlike the table machine these concepts extend the CombinationOperation concept rather than being children of it.
+The CombinationMachine concept is similar to the table machine equivalent. It contains Activities and the edges between the activities as well as a start pointer and an edge to first activity.
+The combination machine has an activity concept. Each activity contains zero or more table machine references that it runs. The activities are connected with GoTo concepts which has a condition property. 
+This condition determines which activity is next, and bases it on which value is read at the head of the tape. The goto concept references a from activity and a to activity to keep track of the relevant activities.
+The combination machine also has a start pointer which is similar to the activity except it does not run any machine references, and a gotoInit concept which is similar to the GoTo except the from activity is replaced with the start pointer.
+The RunMachine concept references exactly one table machine, which allows the combination machine to run different machines.
+
+### Runtime Elements
+The runtime elements are corresponding concepts to the combination machine and table machine and will reference exactly one of its corresponding concept.
+In the table machine it has a runtime concept for TableState and TableMachine.
+In the combination machine it has a runtime concept for GoTo, Activity and CombinationMachine.
+The GoTo runtime element is different in that it references 0 or 1 activities, rather than a corresponding goto concept.
+
+### Test Suite
+The test suite has two concepts, the MachineTest concept which contains an input and and expected output, and a TestSuite concept which is the root concept and references a machine (combination or table) and contains multiple Machinetests.
+
 
 ## Constraints
-The constraints are the same for both machines.
-Firstly the initial string of the machines is set so it can only contain legal values.
-Secondly the states of a machine must all have unique names.
-Finally the goto concepts are constrained so that they can only point to states of the same machine.
+
+### Table Machine
+There is a referent constraint to ensure that the next state that they go to is within the same table machine.
+There is also a constraint to ensure the uniqueness of state names.
+
+### Combination Machine
+The combination machine has a constraint that ensures that there is an initial and a final state.
+There is a referent constraint to ensure that the activities that there are edges between are from the same combination machine.
+There is also a constraint to ensure that there is only one outgoing edge from one activity to another, and that the conditions for each outgoing edge from an activity is unique.
 
 ## Editor (Syntax)
 ### Table Machine
@@ -51,9 +63,17 @@ When each of these elements are fetched language refers to their individual edit
 The first row of the table fetches HeaderStrings and assigns the relevant values.
 
 ### Combination Machine
-Compared to the table machine the editor for the combination machine is relatively simple.
-Each machine contains the states which each contain the operations.
-Each type of operation has slightly different editors, with the Conditional_Editor being the most different from the other two as it contains three children, one for each of the possible input values.
+The combination machine editor uses the plugins [de.itemis.mps.editor.diagram](https://plugins.jetbrains.com/plugin/13240-de-itemis-mps-editor-diagram) and [com.mbeddr.mpsutil.editor.querylist](https://plugins.jetbrains.com/plugin/17128-com-mbeddr-mpsutil-editor-querylist) for its diagrammatic view. 
+It has connection creators to define the edges between activities and from the start pointer.
+It is also defined to have a start pointer and activities in the palette, so that it can be added to the diagram view.
+The GoTo_graph editor is made to represent an edge and uses the from activity in the goto concept for the from node and to activity in the goto concept for the to node. For the to node there is a drawn arrow that points to the to node to indicate the direction of the graph.
+The activity is shaped as a box, with the name of the activity and the machines that it runs. The activity is set to delete edges to and from it when deleted.
+The RunMachine Editor is defined to be orange so that the machines an activity runs are easily discernible.
+
+### Test Suite
+The TestSuite editor defines a layout where the user can give the test a name and define which machine is being tested. It also defines a column where the tests are added.
+The MachineTest editor for each test has an input field and an expected output field.
+The name of a test is color coded as green.
 
 ### Cell key map
 Cell key maps are custom keybindings for a node.
@@ -61,58 +81,34 @@ In the Turing language there is one cell key map for the combination machine tha
 
 ### Editor component
 Editor components are custom components that can be added to an editor.
-In the Turing language, there is a editor component for the run button used in the combination machine editor.
 
 ## Behavior
 ### Table machine
-The TableMachine_Behavior contains two functions for setting the tape value, one from the run button and one from the run machine functionality in the file overview, as well as initialize the MachineState class.
-This class contains the runtime version of the tape and executes all operations on it.
-This includes read, write and move, as well as printing the final version of the tape.
-The third function in the TableMachine_Behavior starts the machine itself by taking an instance of MachineState and sending it to the first TableState of the machine.
-The TableState_Behavior then fetches the read value from the tape and runs one of the three operations.
-The TableOperation_Behavior runs write, move and goto.
-TableWrite_Behavior checks it's own value and calls a write command to the MachineState.
-TableMove_Behavior does the same and calls a move command to the MachineState, except if the value is "stay".
-Finally the TableGoto_Behavior runs another state, similarly to the TableMachine_Behavior.
+The RT_TableMachine_Behavior have three functions, the first one is the run function which adds the next runtime element to a stack.
+The other two are to return information about the state of the current table machine for debugging purposes.
+The other behavior for the table machine is the the RT_TableState_behavior, which has similar functions to RT_TableMachine_Behavior. 
+The RT_TableState_Behavior also have functions that fetches the read value from the tape and runs operations on the tape.
 
 ### Combination machine
-The combination machine works in much the same way as the table machine, except since Conditional, GoTo and RunMachine are instances of CombinationOperation rather than children,
-this means that the CombinationState_Behavior simply runs all operations it contains.
+The combination machine have an RT_Activity_Behavior, an RT_GoTo_Behavior and an RT_Combination_Machine_Behavior which have similar elements to the table machine behaviors with functions that return information on the current state of the machine and a run function which pushes the next runtime element onto a stack.
+The RT_CombinationMachine_Behavior also has a method that allows it to find the next edges for a given activity.
 
-The Turing language nodes have behavior code that interacts with the runtime elements described in the next section.
-The run function in a nodes behavior also activates the run function in a different node.
-You can select the machine that is run in the behavior and use <kbd>Ctrl</kbd> + <kbd>B</kbd> to go its location.
+There is also the Activity_behavior which can return outgoing edges, incoming edges, adjacent activities and whether the activity is the initial activity.
+Finally, there is a CombinationMachine_behavior which can return the role scope of the activities and the start pointer.
+### Typesystem
+The typesystem have the checks Check_Activity which checks if an activities name is unique and if it is connected to another activity, and Check_CombinationMachine to check if the start pointer is attached to an activity.
 
 ## Runtime
 The runtime components of the language are:
 - Tape with head/scanner position.
-- Current active state.
-- Current active machine.
+- The stack of runtime elements (states, activities, transitions, machines).
 
-The current runtime elements are located in a class under the behavior aspect.
-These elements should be separate from the language and contained in a runtime solution.
-The 2018 version of the language had a runtime solution, but this was replaced with the class in behaviors by the 2019 group.
+The language uses action elements found in the plugin model to run debugging, testing and regular run. In here the messages output to the user is defined and it runs the activities and states that are put on the stack.
 
 The Turing language is executed and run in MPS. The language concepts like move or write have behavior aspects.
 These behavior aspects contain Baselanguage code that executes the Turing language operations as baseLanguage.
-One behaviour will be the initial behavior that runs a machine.
-The initial behavior then runs the next behavior of the Turing machine, until all the instructions of the machine is complete.
-A string created in BaseLanguage represents the tape.
+The activities or states that are pushed onto a stack are popped off the stack and executed when running the machine.
+A string created in BaseLanguage represents the tape. 
+The machine will run until there are no new states/activities it can transition to. 
 This string is manipulated by the operations of the Turing machine, and after the machine is complete, the result is the manipulated string.
 The result string is displayed in a pop up.
-
-Running the initial behavior of a Turing machine is triggered in two different ways.
-One way is to click the run button inside a combination machine editor.
-When running the machine this way the input string can be entered in the tape field located right above the run button.
-
-The other way is to right click a combination machine within a model in the left hand side menu and select run machine.
-When running the machine this way the input string can be entered in a pop up.
-
-# MPS tips
-- Remember, you do not write code in *MPS*, use autcomplete <kbd>Ctrl</kbd> + <kbd>Space</kbd>.
-- When in doubt of what to type try <kbd>Alt</kbd> + <kbd>Enter</kbd>.
-- The easiest way to navigate between the different aspects of a node (concept, editor, behavior etc) is to open one of the aspects for the node and use the navigation bar at the bottom of the editor windows to switch to a different aspect of the node.
-- To navigate to the declaration of a node, variable or other object (entity) you can select the entity and press <kbd>Ctrl</kbd> + <kbd>B</kbd>.
-- To create a (virtual) folder for nodes in MPS  you set a virtual package for all the nodes you wish to group to a virtual folder.
-- The inspector function in the lower right corner is vital for configuring aspects of the language, especially in the editor section.
-- You can view the properties of a language or model, such as dependencies and used languages, by right clicking and selecting model properties
